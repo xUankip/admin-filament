@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    ::-webkit-scrollbar {
+        height: 9px;
+        width: 5px;
+        border-radius: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: transparent;
+        border-radius: 8px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: transparent;
+        border-radius: 8px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: transparent;
+    }
+
+    /*
+
+    .dark ::-webkit-scrollbar-track {
+        background: #101215
+    }
+
+    .dark ::-webkit-scrollbar-thumb {
+        background: #1f2126
+    }
+
+    .dark ::-webkit-scrollbar-thumb:hover {
+        background: #1a1d21
+    }
+    */
+    .imageStyleContainer label.fi-fo-checkbox-list-option-label {
+        position: relative;
+        display: inline-block;
+        min-height: 52px;
+        min-width: 52px;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .imageStyleContainer input[type="checkbox"] {
+        position: absolute;
+        left: 3px;
+        right: 0;
+    }
+
+    .imageStyleContainer span.fi-fo-checkbox-list-option-label {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        font-size: 11.5px;
+        white-space: nowrap;
+        display: block;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: white;
+        background: rgba(0, 0, 0, 0.46);
+    }
+
+    /***
+     * Region file
+     */
+    .fi-fo-file-upload {
+        @apply border-2 border-dashed rounded-md shadow-none min-h-[72px] border-gray-300 bg-gray-100 dark:border-gray-600 dark:bg-gray-800 ;
+    }
+
+    .filepond--root {
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+    .fi-fo-file-upload {
+
+    }
+
+    .fi-fo-file-upload input[type="file"] {
+        display: none !important;
+    }
+
+    .fi-panel-pro .fi-sidebar {
+        z-index: 1 !important;
+    }
+
+    .fi-sidebar-close-overlay {
+        z-index: 1 !important;
+    }
+
+    .fi-panel-pro {
+        .fi-logo {
+            @apply border-0
+        }
+
+        .fi-sidebar-group-items {
+            @apply gap-y-2
+        }
+
+        .fi-topbar {
+            position: relative !important;
+        }
+
+        .fi-topbar nav {
+            @apply !ring-0 !shadow-none  bg-white dark:bg-gray-950
+        }
+
+        .fi-sidebar-nav,
+        .fi-sidebar {
+            @apply bg-white dark:bg-gray-950
+        }
+
+        .fi-main {
+            @apply bg-blue-50 dark:bg-gray-800 rounded-l-2xl rounded-b-none
+        }
+
+        .fi-sidebar-header {
+            @apply !shadow-none bg-white dark:bg-gray-950
+        }
+
+        .fi-page-sub-navigation-sidebar-ctn{
+            @apply w-52
+        }
+
+        .fi-sidebar-nav-groups{
+            .fi-sidebar-group-items{
+
+                .fi-sidebar-item-button{
+
+                }
+            }
+        }
+
+    }
+
+    .fi-panel-pro .fi-layout {
+        @apply bg-white dark:bg-gray-950
+    }
+
+    .filament-main-topbar {
+        position: relative;
+    }
+    .fi-ta{}
+    .fi-ta .fi-ta-ctn,
+    .fi-section_
+    {
+        @apply !ring-0 divide-gray-100 dark:divide-white/5
+    }
+
+}
+
+

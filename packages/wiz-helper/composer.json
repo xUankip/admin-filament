@@ -1,0 +1,41 @@
+{
+    "name": "wiz/helper",
+    "description": "Helper for laravel ,php",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Wiz\\Helper\\": "src"
+        },
+        "files": [
+            "helper.php",
+            "security_helper.php"
+        ]
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ngannv",
+            "email": "ngankt2@gmail.com"
+        },
+        {
+            "name": "CodeZiTeam",
+            "email": "codezi.pro@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "filament/filament": "^3.0",
+        "spatie/laravel-package-tools": "^1.9",
+        "intervention/image": "^3.9",
+        "symfony/yaml": "^v6.3.8"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wiz\\Helper\\WizHelperProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

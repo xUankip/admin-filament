@@ -1,0 +1,586 @@
+{
+    "af": {
+        "name": "Afrikaans",
+        "country": {
+            "name": "South Africa",
+            "flag": "U+1F1E6 U+1F1E8",
+            "code": "ZA"
+        }
+    },
+    "sq": {
+        "name": "Albanian",
+        "country": {
+            "name": "Albania",
+            "flag": "🇦🇱",
+            "code": "AL"
+        }
+    },
+    "am": {
+        "name": "Amharic",
+        "country": {
+            "name": "Ethiopia",
+            "flag": "🇪🇹",
+            "code": "ET"
+        }
+    },
+    "ar": {
+        "name": "Arabic",
+        "country": {
+            "name": "Saudi Arabia",
+            "flag": "🇸🇦",
+            "code": "SA"
+        }
+    },
+    "az": {
+        "name": "Azerbaijani",
+        "country": {
+            "name": "Azerbaijan",
+            "flag": "🇦🇿",
+            "code": "AZ"
+        }
+    },
+    "bn": {
+        "name": "Bengali",
+        "country": {
+            "name": "Bangladesh",
+            "flag": "🇧🇩",
+            "code": "BD"
+        }
+    },
+    "bs": {
+        "name": "Bosnian",
+        "country": {
+            "name": "Bosnia and Herzegovina",
+            "flag": "🇧🇦",
+            "code": "BA"
+        }
+    },
+    "bg": {
+        "name": "Bulgarian",
+        "country": {
+            "name": "Bulgaria",
+            "flag": "🇧🇬",
+            "code": "BG"
+        }
+    },
+    "my": {
+        "name": "Burmese",
+        "country": {
+            "name": "Myanmar",
+            "flag": "🇲🇲",
+            "code": "MM"
+        }
+    },
+    "ca": {
+        "name": "Catalan",
+        "country": {
+            "name": "Spain",
+            "flag": "🇪🇸",
+            "code": "ES"
+        }
+    },
+    "km": {
+        "name": "Central Khmer",
+        "country": {
+            "name": "Cambodia",
+            "flag": "🇰🇭",
+            "code": "KH"
+        }
+    },
+    "zh": {
+        "name": "Chinese",
+        "country": {
+            "name": "China",
+            "flag": "🇨🇳",
+            "code": "CN"
+        }
+    },
+    "hr": {
+        "name": "Croatian",
+        "country": {
+            "name": "Croatia",
+            "flag": "🇭🇷",
+            "code": "HR"
+        }
+    },
+    "cs": {
+        "name": "Czech",
+        "country": {
+            "name": "Czech Republic",
+            "flag": "🇨🇿",
+            "code": "CZ"
+        }
+    },
+    "da": {
+        "name": "Danish",
+        "country": {
+            "name": "Denmark",
+            "flag": "🇩🇰",
+            "code": "DK"
+        }
+    },
+    "nl": {
+        "name": "Dutch",
+        "country": {
+            "name": "Netherlands",
+            "flag": "🇳🇱",
+            "code": "NL"
+        }
+    },
+    "en": {
+        "name": "English",
+        "country": {
+            "name": "United States",
+            "flag": "🇺🇸",
+            "code": "US"
+        }
+    },
+    "et": {
+        "name": "Estonian",
+        "country": {
+            "name": "Estonia",
+            "flag": "🇪🇪",
+            "code": "EE"
+        }
+    },
+    "fi": {
+        "name": "Finnish",
+        "country": {
+            "name": "Finland",
+            "flag": "🇫🇮",
+            "code": "FI"
+        }
+    },
+    "fr": {
+        "name": "French",
+        "country": {
+            "name": "France",
+            "flag": "🇫🇷",
+            "code": "FR"
+        }
+    },
+    "gl": {
+        "name": "Galician",
+        "country": {
+            "name": "Spain",
+            "flag": "🇪🇸",
+            "code": "ES"
+        }
+    },
+    "ka": {
+        "name": "Georgian",
+        "country": {
+            "name": "Georgia",
+            "flag": "🇬🇪",
+            "code": "GE"
+        }
+    },
+    "de": {
+        "name": "German",
+        "country": {
+            "name": "Germany",
+            "flag": "🇩🇪",
+            "code": "DE"
+        }
+    },
+    "gu": {
+        "name": "Gujarati",
+        "country": {
+            "name": "India",
+            "flag": "🇮🇳",
+            "code": "IN"
+        }
+    },
+    "he": {
+        "name": "Hebrew",
+        "country": {
+            "name": "Israel",
+            "flag": "🇮🇱",
+            "code": "IL"
+        }
+    },
+    "hi": {
+        "name": "Hindi",
+        "country": {
+            "name": "India",
+            "flag": "🇮🇳",
+            "code": "IN"
+        }
+    },
+    "hu": {
+        "name": "Hungarian",
+        "country": {
+            "name": "Hungary",
+            "flag": "🇭🇺",
+            "code": "HU"
+        }
+    },
+    "is": {
+        "name": "Icelandic",
+        "country": {
+            "name": "Iceland",
+            "flag": "🇮🇸",
+            "code": "IS"
+        }
+    },
+    "id": {
+        "name": "Indonesian",
+        "country": {
+            "name": "Indonesia",
+            "flag": "🇮🇩",
+            "code": "ID"
+        }
+    },
+    "ga": {
+        "name": "Irish",
+        "country": {
+            "name": "Ireland",
+            "flag": "🇮🇪",
+            "code": "IE"
+        }
+    },
+    "it": {
+        "name": "Italian",
+        "country": {
+            "name": "Italy",
+            "flag": "🇮🇹",
+            "code": "IT"
+        }
+    },
+    "ja": {
+        "name": "Japanese",
+        "country": {
+            "name": "Japan",
+            "flag": "🇯🇵",
+            "code": "JP"
+        }
+    },
+    "jv": {
+        "name": "Javanese",
+        "country": {
+            "name": "Indonesia",
+            "flag": "🇮🇩",
+            "code": "ID"
+        }
+    },
+    "kn": {
+        "name": "Kannada",
+        "country": {
+            "name": "India",
+            "flag": "🇮🇳",
+            "code": "IN"
+        }
+    },
+    "kk": {
+        "name": "Kazakh",
+        "country": {
+            "name": "Kazakhstan",
+            "flag": "🇰🇿",
+            "code": "KZ"
+        }
+    },
+    "ko": {
+        "name": "Korean",
+        "country": {
+            "name": "Korea, Republic of South Korea",
+            "flag": "🇰🇷",
+            "code": "KR"
+        }
+    },
+    "lo": {
+        "name": "Lao",
+        "country": {
+            "name": "Laos",
+            "flag": "🇱🇦",
+            "code": "LA"
+        }
+    },
+    "lv": {
+        "name": "Latvian",
+        "country": {
+            "name": "Latvia",
+            "flag": "🇱🇻",
+            "code": "LV"
+        }
+    },
+    "lt": {
+        "name": "Lithuanian",
+        "country": {
+            "name": "Lithuania",
+            "flag": "🇱🇹",
+            "code": "LT"
+        }
+    },
+    "mk": {
+        "name": "Macedonian",
+        "country": {
+            "name": "Macedonia",
+            "flag": "🇲🇰",
+            "code": "MK"
+        }
+    },
+    "ms": {
+        "name": "Malay",
+        "country": {
+            "name": "Malaysia",
+            "flag": "🇲🇾",
+            "code": "MY"
+        }
+    },
+    "ml": {
+        "name": "Malayalam",
+        "country": {
+            "name": "India",
+            "flag": "🇮🇳",
+            "code": "IN"
+        }
+    },
+    "mt": {
+        "name": "Maltese",
+        "country": {
+            "name": "Malta",
+            "flag": "🇲🇹",
+            "code": "MT"
+        }
+    },
+    "mr": {
+        "name": "Marathi",
+        "country": {
+            "name": "India",
+            "flag": "🇮🇳",
+            "code": "IN"
+        }
+    },
+    "el": {
+        "name": "Modern Greek (1453-)",
+        "country": {
+            "name": "Greece",
+            "flag": "🇬🇷",
+            "code": "GR"
+        }
+    },
+    "mn": {
+        "name": "Mongolian",
+        "country": {
+            "name": "Mongolia",
+            "flag": "🇲🇳",
+            "code": "MN"
+        }
+    },
+    "ne": {
+        "name": "Nepali",
+        "country": {
+            "name": "Nepal",
+            "flag": "🇳🇵",
+            "code": "NP"
+        }
+    },
+    "nb": {
+        "name": "Norwegian Bokmål",
+        "country": {
+            "name": "Norway",
+            "flag": "🇳🇴",
+            "code": "NO"
+        }
+    },
+    "fa": {
+        "name": "Persian",
+        "country": {
+            "name": "Iran, Islamic Republic of Persian Gulf",
+            "flag": "🇮🇷",
+            "code": "IR"
+        }
+    },
+    "pl": {
+        "name": "Polish",
+        "country": {
+            "name": "Poland",
+            "flag": "🇵🇱",
+            "code": "PL"
+        }
+    },
+    "pt": {
+        "name": "Portuguese",
+        "country": {
+            "name": "Portugal",
+            "flag": "🇵🇹",
+            "code": "PT"
+        }
+    },
+    "ps": {
+        "name": "Pushto",
+        "country": {
+            "name": "Afghanistan",
+            "flag": "🇦🇫",
+            "code": "AF"
+        }
+    },
+    "ro": {
+        "name": "Romanian",
+        "country": {
+            "name": "Romania",
+            "flag": "🇷🇴",
+            "code": "RO"
+        }
+    },
+    "ru": {
+        "name": "Russian",
+        "country": {
+            "name": "Russia",
+            "flag": "🇷🇺",
+            "code": "RU"
+        }
+    },
+    "sr": {
+        "name": "Serbian",
+        "country": {
+            "name": "Serbia",
+            "flag": "🇷🇸",
+            "code": "RS"
+        }
+    },
+    "si": {
+        "name": "Sinhala",
+        "country": {
+            "name": "Sri Lanka",
+            "flag": "🇱🇰",
+            "code": "LK"
+        }
+    },
+    "sk": {
+        "name": "Slovak",
+        "country": {
+            "name": "Slovakia",
+            "flag": "🇸🇰",
+            "code": "SK"
+        }
+    },
+    "sl": {
+        "name": "Slovenian",
+        "country": {
+            "name": "Slovenia",
+            "flag": "🇸🇮",
+            "code": "SI"
+        }
+    },
+    "so": {
+        "name": "Somali",
+        "country": {
+            "name": "Somalia",
+            "flag": "🇸🇴",
+            "code": "SO"
+        }
+    },
+    "es": {
+        "name": "Spanish",
+        "country": {
+            "name": "Spain",
+            "flag": "🇪🇸",
+            "code": "ES"
+        }
+    },
+    "su": {
+        "name": "Sundanese",
+        "country": {
+            "name": "Indonesia",
+            "flag": "🇮🇩",
+            "code": "ID"
+        }
+    },
+    "sw": {
+        "name": "Swahili",
+        "country": {
+            "name": "Kenya",
+            "flag": "🇰🇪",
+            "code": "KE"
+        }
+    },
+    "sv": {
+        "name": "Swedish",
+        "country": {
+            "name": "Sweden",
+            "flag": "🇸🇪",
+            "code": "SE"
+        }
+    },
+    "ta": {
+        "name": "Tamil",
+        "country": {
+            "name": "India",
+            "flag": "🇮🇳",
+            "code": "IN"
+        }
+    },
+    "te": {
+        "name": "Telugu",
+        "country": {
+            "name": "India",
+            "flag": "🇮🇳",
+            "code": "IN"
+        }
+    },
+    "th": {
+        "name": "Thai",
+        "country": {
+            "name": "Thailand",
+            "flag": "🇹🇭",
+            "code": "TH"
+        }
+    },
+    "tr": {
+        "name": "Turkish",
+        "country": {
+            "name": "Turkey",
+            "flag": "🇹🇷",
+            "code": "TR"
+        }
+    },
+    "uk": {
+        "name": "Ukrainian",
+        "country": {
+            "name": "Ukraine",
+            "flag": "🇺🇦",
+            "code": "UA"
+        }
+    },
+    "ur": {
+        "name": "Urdu",
+        "country": {
+            "name": "Pakistan",
+            "flag": "🇵🇰",
+            "code": "PK"
+        }
+    },
+    "uz": {
+        "name": "Uzbek",
+        "country": {
+            "name": "Uzbekistan",
+            "flag": "🇺🇿",
+            "code": "UZ"
+        }
+    },
+    "vi": {
+        "name": "Vietnamese",
+        "country": {
+            "name": "Vietnam",
+            "flag": "🇻🇳",
+            "code": "VN"
+        }
+    },
+    "cy": {
+        "name": "Welsh",
+        "country": {
+            "name": "United Kingdom",
+            "flag": "🇬🇧",
+            "code": "GB"
+        }
+    },
+    "zu": {
+        "name": "Zulu",
+        "country": {
+            "name": "South Africa",
+            "flag": "🇿🇦",
+            "code": "ZA"
+        }
+    }
+}

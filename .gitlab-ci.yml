@@ -1,0 +1,21 @@
+stages:
+  - deploy
+
+deploy_to_production:
+  stage: deploy
+  only:
+    - production
+  script:
+    - echo "Deploying to production server..."
+      cd /home/gift.vdict.org
+      git pull origin production
+      composer install --no-dev --optimize-autoloader
+      php artisan migrate --force
+      php artisan cache:clear
+      php artisan config:clear
+      php artisan route:cache
+      php artisan storage:link
+      php artisan filament:optimize
+      bun run build
+      bun run build-front
+      EOF

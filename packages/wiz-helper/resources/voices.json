@@ -1,0 +1,2394 @@
+[
+    {
+        "country": "South Africa",
+        "country_code": "ZA",
+        "gender": "Female",
+        "language": "Afrikaans",
+        "name": "af-ZA-AdriNeural",
+        "speaker_name": "Adri"
+    },
+    {
+        "country": "South Africa",
+        "country_code": "ZA",
+        "gender": "Male",
+        "language": "Afrikaans",
+        "name": "af-ZA-WillemNeural",
+        "speaker_name": "Willem"
+    },
+    {
+        "country": "Ethiopia",
+        "country_code": "ET",
+        "gender": "Male",
+        "language": "Amharic",
+        "name": "am-ET-AmehaNeural",
+        "speaker_name": "Ameha"
+    },
+    {
+        "country": "Ethiopia",
+        "country_code": "ET",
+        "gender": "Female",
+        "language": "Amharic",
+        "name": "am-ET-MekdesNeural",
+        "speaker_name": "Mekdes"
+    },
+    {
+        "country": "United Arab Emirates",
+        "country_code": "AE",
+        "gender": "Female",
+        "language": "Arabic",
+        "name": "ar-AE-FatimaNeural",
+        "speaker_name": "Fatima"
+    },
+    {
+        "country": "United Arab Emirates",
+        "country_code": "AE",
+        "gender": "Male",
+        "language": "Arabic",
+        "name": "ar-AE-HamdanNeural",
+        "speaker_name": "Hamdan"
+    },
+    {
+        "country": "Bahrain",
+        "country_code": "BH",
+        "gender": "Male",
+        "language": "Arabic",
+        "name": "ar-BH-AliNeural",
+        "speaker_name": "Ali"
+    },
+    {
+        "country": "Bahrain",
+        "country_code": "BH",
+        "gender": "Female",
+        "language": "Arabic",
+        "name": "ar-BH-LailaNeural",
+        "speaker_name": "Laila"
+    },
+    {
+        "country": "Algeria",
+        "country_code": "DZ",
+        "gender": "Female",
+        "language": "Arabic",
+        "name": "ar-DZ-AminaNeural",
+        "speaker_name": "Amina"
+    },
+    {
+        "country": "Algeria",
+        "country_code": "DZ",
+        "gender": "Male",
+        "language": "Arabic",
+        "name": "ar-DZ-IsmaelNeural",
+        "speaker_name": "Ismael"
+    },
+    {
+        "country": "Egypt",
+        "country_code": "EG",
+        "gender": "Female",
+        "language": "Arabic",
+        "name": "ar-EG-SalmaNeural",
+        "speaker_name": "Salma"
+    },
+    {
+        "country": "Egypt",
+        "country_code": "EG",
+        "gender": "Male",
+        "language": "Arabic",
+        "name": "ar-EG-ShakirNeural",
+        "speaker_name": "Shakir"
+    },
+    {
+        "country": "Iraq",
+        "country_code": "IQ",
+        "gender": "Male",
+        "language": "Arabic",
+        "name": "ar-IQ-BasselNeural",
+        "speaker_name": "Bassel"
+    },
+    {
+        "country": "Iraq",
+        "country_code": "IQ",
+        "gender": "Female",
+        "language": "Arabic",
+        "name": "ar-IQ-RanaNeural",
+        "speaker_name": "Rana"
+    },
+    {
+        "country": "Jordan",
+        "country_code": "JO",
+        "gender": "Female",
+        "language": "Arabic",
+        "name": "ar-JO-SanaNeural",
+        "speaker_name": "Sana"
+    },
+    {
+        "country": "Jordan",
+        "country_code": "JO",
+        "gender": "Male",
+        "language": "Arabic",
+        "name": "ar-JO-TaimNeural",
+        "speaker_name": "Taim"
+    },
+    {
+        "country": "Kuwait",
+        "country_code": "KW",
+        "gender": "Male",
+        "language": "Arabic",
+        "name": "ar-KW-FahedNeural",
+        "speaker_name": "Fahed"
+    },
+    {
+        "country": "Kuwait",
+        "country_code": "KW",
+        "gender": "Female",
+        "language": "Arabic",
+        "name": "ar-KW-NouraNeural",
+        "speaker_name": "Noura"
+    },
+    {
+        "country": "Lebanon",
+        "country_code": "LB",
+        "gender": "Female",
+        "language": "Arabic",
+        "name": "ar-LB-LaylaNeural",
+        "speaker_name": "Layla"
+    },
+    {
+        "country": "Lebanon",
+        "country_code": "LB",
+        "gender": "Male",
+        "language": "Arabic",
+        "name": "ar-LB-RamiNeural",
+        "speaker_name": "Rami"
+    },
+    {
+        "country": "Libya",
+        "country_code": "LY",
+        "gender": "Female",
+        "language": "Arabic",
+        "name": "ar-LY-ImanNeural",
+        "speaker_name": "Iman"
+    },
+    {
+        "country": "Libya",
+        "country_code": "LY",
+        "gender": "Male",
+        "language": "Arabic",
+        "name": "ar-LY-OmarNeural",
+        "speaker_name": "Omar"
+    },
+    {
+        "country": "Morocco",
+        "country_code": "MA",
+        "gender": "Male",
+        "language": "Arabic",
+        "name": "ar-MA-JamalNeural",
+        "speaker_name": "Jamal"
+    },
+    {
+        "country": "Morocco",
+        "country_code": "MA",
+        "gender": "Female",
+        "language": "Arabic",
+        "name": "ar-MA-MounaNeural",
+        "speaker_name": "Mouna"
+    },
+    {
+        "country": "Oman",
+        "country_code": "OM",
+        "gender": "Male",
+        "language": "Arabic",
+        "name": "ar-OM-AbdullahNeural",
+        "speaker_name": "Abdullah"
+    },
+    {
+        "country": "Oman",
+        "country_code": "OM",
+        "gender": "Female",
+        "language": "Arabic",
+        "name": "ar-OM-AyshaNeural",
+        "speaker_name": "Aysha"
+    },
+    {
+        "country": "Qatar",
+        "country_code": "QA",
+        "gender": "Female",
+        "language": "Arabic",
+        "name": "ar-QA-AmalNeural",
+        "speaker_name": "Amal"
+    },
+    {
+        "country": "Qatar",
+        "country_code": "QA",
+        "gender": "Male",
+        "language": "Arabic",
+        "name": "ar-QA-MoazNeural",
+        "speaker_name": "Moaz"
+    },
+    {
+        "country": "Saudi Arabia",
+        "country_code": "SA",
+        "gender": "Male",
+        "language": "Arabic",
+        "name": "ar-SA-HamedNeural",
+        "speaker_name": "Hamed"
+    },
+    {
+        "country": "Saudi Arabia",
+        "country_code": "SA",
+        "gender": "Female",
+        "language": "Arabic",
+        "name": "ar-SA-ZariyahNeural",
+        "speaker_name": "Zariyah"
+    },
+    {
+        "country": "Syrian Arab Republic",
+        "country_code": "SY",
+        "gender": "Female",
+        "language": "Arabic",
+        "name": "ar-SY-AmanyNeural",
+        "speaker_name": "Amany"
+    },
+    {
+        "country": "Syrian Arab Republic",
+        "country_code": "SY",
+        "gender": "Male",
+        "language": "Arabic",
+        "name": "ar-SY-LaithNeural",
+        "speaker_name": "Laith"
+    },
+    {
+        "country": "Tunisia",
+        "country_code": "TN",
+        "gender": "Male",
+        "language": "Arabic",
+        "name": "ar-TN-HediNeural",
+        "speaker_name": "Hedi"
+    },
+    {
+        "country": "Tunisia",
+        "country_code": "TN",
+        "gender": "Female",
+        "language": "Arabic",
+        "name": "ar-TN-ReemNeural",
+        "speaker_name": "Reem"
+    },
+    {
+        "country": "Yemen",
+        "country_code": "YE",
+        "gender": "Female",
+        "language": "Arabic",
+        "name": "ar-YE-MaryamNeural",
+        "speaker_name": "Maryam"
+    },
+    {
+        "country": "Yemen",
+        "country_code": "YE",
+        "gender": "Male",
+        "language": "Arabic",
+        "name": "ar-YE-SalehNeural",
+        "speaker_name": "Saleh"
+    },
+    {
+        "country": "Azerbaijan",
+        "country_code": "AZ",
+        "gender": "Male",
+        "language": "Azerbaijani",
+        "name": "az-AZ-BabekNeural",
+        "speaker_name": "Babek"
+    },
+    {
+        "country": "Azerbaijan",
+        "country_code": "AZ",
+        "gender": "Female",
+        "language": "Azerbaijani",
+        "name": "az-AZ-BanuNeural",
+        "speaker_name": "Banu"
+    },
+    {
+        "country": "Bulgaria",
+        "country_code": "BG",
+        "gender": "Male",
+        "language": "Bulgarian",
+        "name": "bg-BG-BorislavNeural",
+        "speaker_name": "Borislav"
+    },
+    {
+        "country": "Bulgaria",
+        "country_code": "BG",
+        "gender": "Female",
+        "language": "Bulgarian",
+        "name": "bg-BG-KalinaNeural",
+        "speaker_name": "Kalina"
+    },
+    {
+        "country": "Bangladesh",
+        "country_code": "BD",
+        "gender": "Female",
+        "language": "Bengali",
+        "name": "bn-BD-NabanitaNeural",
+        "speaker_name": "Nabanita"
+    },
+    {
+        "country": "Bangladesh",
+        "country_code": "BD",
+        "gender": "Male",
+        "language": "Bengali",
+        "name": "bn-BD-PradeepNeural",
+        "speaker_name": "Pradeep"
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "gender": "Male",
+        "language": "Bengali",
+        "name": "bn-IN-BashkarNeural",
+        "speaker_name": "Bashkar"
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "gender": "Female",
+        "language": "Bengali",
+        "name": "bn-IN-TanishaaNeural",
+        "speaker_name": "Tanishaa"
+    },
+    {
+        "country": "Bosnia and Herzegovina",
+        "country_code": "BA",
+        "gender": "Male",
+        "language": "Bosnian",
+        "name": "bs-BA-GoranNeural",
+        "speaker_name": "Goran"
+    },
+    {
+        "country": "Bosnia and Herzegovina",
+        "country_code": "BA",
+        "gender": "Female",
+        "language": "Bosnian",
+        "name": "bs-BA-VesnaNeural",
+        "speaker_name": "Vesna"
+    },
+    {
+        "country": "Spain",
+        "country_code": "ES",
+        "gender": "Male",
+        "language": "Catalan",
+        "name": "ca-ES-EnricNeural",
+        "speaker_name": "Enric"
+    },
+    {
+        "country": "Spain",
+        "country_code": "ES",
+        "gender": "Female",
+        "language": "Catalan",
+        "name": "ca-ES-JoanaNeural",
+        "speaker_name": "Joana"
+    },
+    {
+        "country": "Czechia",
+        "country_code": "CZ",
+        "gender": "Male",
+        "language": "Czech",
+        "name": "cs-CZ-AntoninNeural",
+        "speaker_name": "Antonin"
+    },
+    {
+        "country": "Czechia",
+        "country_code": "CZ",
+        "gender": "Female",
+        "language": "Czech",
+        "name": "cs-CZ-VlastaNeural",
+        "speaker_name": "Vlasta"
+    },
+    {
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "gender": "Male",
+        "language": "Welsh",
+        "name": "cy-GB-AledNeural",
+        "speaker_name": "Aled"
+    },
+    {
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "gender": "Female",
+        "language": "Welsh",
+        "name": "cy-GB-NiaNeural",
+        "speaker_name": "Nia"
+    },
+    {
+        "country": "Denmark",
+        "country_code": "DK",
+        "gender": "Female",
+        "language": "Danish",
+        "name": "da-DK-ChristelNeural",
+        "speaker_name": "Christel"
+    },
+    {
+        "country": "Denmark",
+        "country_code": "DK",
+        "gender": "Male",
+        "language": "Danish",
+        "name": "da-DK-JeppeNeural",
+        "speaker_name": "Jeppe"
+    },
+    {
+        "country": "Austria",
+        "country_code": "AT",
+        "gender": "Female",
+        "language": "German",
+        "name": "de-AT-IngridNeural",
+        "speaker_name": "Ingrid"
+    },
+    {
+        "country": "Austria",
+        "country_code": "AT",
+        "gender": "Male",
+        "language": "German",
+        "name": "de-AT-JonasNeural",
+        "speaker_name": "Jonas"
+    },
+    {
+        "country": "Switzerland",
+        "country_code": "CH",
+        "gender": "Male",
+        "language": "German",
+        "name": "de-CH-JanNeural",
+        "speaker_name": "Jan"
+    },
+    {
+        "country": "Switzerland",
+        "country_code": "CH",
+        "gender": "Female",
+        "language": "German",
+        "name": "de-CH-LeniNeural",
+        "speaker_name": "Leni"
+    },
+    {
+        "country": "Germany",
+        "country_code": "DE",
+        "gender": "Female",
+        "language": "German",
+        "name": "de-DE-AmalaNeural",
+        "speaker_name": "Amala"
+    },
+    {
+        "country": "Germany",
+        "country_code": "DE",
+        "gender": "Male",
+        "language": "German",
+        "name": "de-DE-ConradNeural",
+        "speaker_name": "Conrad"
+    },
+    {
+        "country": "Germany",
+        "country_code": "DE",
+        "gender": "Female",
+        "language": "German",
+        "name": "de-DE-KatjaNeural",
+        "speaker_name": "Katja"
+    },
+    {
+        "country": "Germany",
+        "country_code": "DE",
+        "gender": "Male",
+        "language": "German",
+        "name": "de-DE-KillianNeural",
+        "speaker_name": "Killian"
+    },
+    {
+        "country": "Greece",
+        "country_code": "GR",
+        "gender": "Female",
+        "language": "Modern Greek (1453-)",
+        "name": "el-GR-AthinaNeural",
+        "speaker_name": "Athina"
+    },
+    {
+        "country": "Greece",
+        "country_code": "GR",
+        "gender": "Male",
+        "language": "Modern Greek (1453-)",
+        "name": "el-GR-NestorasNeural",
+        "speaker_name": "Nestoras"
+    },
+    {
+        "country": "Australia",
+        "country_code": "AU",
+        "gender": "Female",
+        "language": "English",
+        "name": "en-AU-NatashaNeural",
+        "speaker_name": "Natasha"
+    },
+    {
+        "country": "Australia",
+        "country_code": "AU",
+        "gender": "Male",
+        "language": "English",
+        "name": "en-AU-WilliamNeural",
+        "speaker_name": "William"
+    },
+    {
+        "country": "Canada",
+        "country_code": "CA",
+        "gender": "Female",
+        "language": "English",
+        "name": "en-CA-ClaraNeural",
+        "speaker_name": "Clara"
+    },
+    {
+        "country": "Canada",
+        "country_code": "CA",
+        "gender": "Male",
+        "language": "English",
+        "name": "en-CA-LiamNeural",
+        "speaker_name": "Liam"
+    },
+    {
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "gender": "Female",
+        "language": "English",
+        "name": "en-GB-LibbyNeural",
+        "speaker_name": "Libby"
+    },
+    {
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "gender": "Female",
+        "language": "English",
+        "name": "en-GB-MaisieNeural",
+        "speaker_name": "Maisie"
+    },
+    {
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "gender": "Male",
+        "language": "English",
+        "name": "en-GB-RyanNeural",
+        "speaker_name": "Ryan"
+    },
+    {
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "gender": "Female",
+        "language": "English",
+        "name": "en-GB-SoniaNeural",
+        "speaker_name": "Sonia"
+    },
+    {
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "gender": "Male",
+        "language": "English",
+        "name": "en-GB-ThomasNeural",
+        "speaker_name": "Thomas"
+    },
+    {
+        "country": "Hong Kong",
+        "country_code": "HK",
+        "gender": "Male",
+        "language": "English",
+        "name": "en-HK-SamNeural",
+        "speaker_name": "Sam"
+    },
+    {
+        "country": "Hong Kong",
+        "country_code": "HK",
+        "gender": "Female",
+        "language": "English",
+        "name": "en-HK-YanNeural",
+        "speaker_name": "Yan"
+    },
+    {
+        "country": "Ireland",
+        "country_code": "IE",
+        "gender": "Male",
+        "language": "English",
+        "name": "en-IE-ConnorNeural",
+        "speaker_name": "Connor"
+    },
+    {
+        "country": "Ireland",
+        "country_code": "IE",
+        "gender": "Female",
+        "language": "English",
+        "name": "en-IE-EmilyNeural",
+        "speaker_name": "Emily"
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "gender": "Female",
+        "language": "English",
+        "name": "en-IN-NeerjaExpressiveNeural",
+        "speaker_name": "NeerjaExpressive"
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "gender": "Female",
+        "language": "English",
+        "name": "en-IN-NeerjaNeural",
+        "speaker_name": "Neerja"
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "gender": "Male",
+        "language": "English",
+        "name": "en-IN-PrabhatNeural",
+        "speaker_name": "Prabhat"
+    },
+    {
+        "country": "Kenya",
+        "country_code": "KE",
+        "gender": "Female",
+        "language": "English",
+        "name": "en-KE-AsiliaNeural",
+        "speaker_name": "Asilia"
+    },
+    {
+        "country": "Kenya",
+        "country_code": "KE",
+        "gender": "Male",
+        "language": "English",
+        "name": "en-KE-ChilembaNeural",
+        "speaker_name": "Chilemba"
+    },
+    {
+        "country": "Nigeria",
+        "country_code": "NG",
+        "gender": "Male",
+        "language": "English",
+        "name": "en-NG-AbeoNeural",
+        "speaker_name": "Abeo"
+    },
+    {
+        "country": "Nigeria",
+        "country_code": "NG",
+        "gender": "Female",
+        "language": "English",
+        "name": "en-NG-EzinneNeural",
+        "speaker_name": "Ezinne"
+    },
+    {
+        "country": "New Zealand",
+        "country_code": "NZ",
+        "gender": "Male",
+        "language": "English",
+        "name": "en-NZ-MitchellNeural",
+        "speaker_name": "Mitchell"
+    },
+    {
+        "country": "New Zealand",
+        "country_code": "NZ",
+        "gender": "Female",
+        "language": "English",
+        "name": "en-NZ-MollyNeural",
+        "speaker_name": "Molly"
+    },
+    {
+        "country": "Philippines",
+        "country_code": "PH",
+        "gender": "Male",
+        "language": "English",
+        "name": "en-PH-JamesNeural",
+        "speaker_name": "James"
+    },
+    {
+        "country": "Philippines",
+        "country_code": "PH",
+        "gender": "Female",
+        "language": "English",
+        "name": "en-PH-RosaNeural",
+        "speaker_name": "Rosa"
+    },
+    {
+        "country": "Singapore",
+        "country_code": "SG",
+        "gender": "Female",
+        "language": "English",
+        "name": "en-SG-LunaNeural",
+        "speaker_name": "Luna"
+    },
+    {
+        "country": "Singapore",
+        "country_code": "SG",
+        "gender": "Male",
+        "language": "English",
+        "name": "en-SG-WayneNeural",
+        "speaker_name": "Wayne"
+    },
+    {
+        "country": "Tanzania, United Republic of",
+        "country_code": "TZ",
+        "gender": "Male",
+        "language": "English",
+        "name": "en-TZ-ElimuNeural",
+        "speaker_name": "Elimu"
+    },
+    {
+        "country": "Tanzania, United Republic of",
+        "country_code": "TZ",
+        "gender": "Female",
+        "language": "English",
+        "name": "en-TZ-ImaniNeural",
+        "speaker_name": "Imani"
+    },
+    {
+        "country": "United States",
+        "country_code": "US",
+        "gender": "Female",
+        "language": "English",
+        "name": "en-US-AnaNeural",
+        "speaker_name": "Ana"
+    },
+    {
+        "country": "United States",
+        "country_code": "US",
+        "gender": "Female",
+        "language": "English",
+        "name": "en-US-AriaNeural",
+        "speaker_name": "Aria"
+    },
+    {
+        "country": "United States",
+        "country_code": "US",
+        "gender": "Male",
+        "language": "English",
+        "name": "en-US-ChristopherNeural",
+        "speaker_name": "Christopher"
+    },
+    {
+        "country": "United States",
+        "country_code": "US",
+        "gender": "Male",
+        "language": "English",
+        "name": "en-US-EricNeural",
+        "speaker_name": "Eric"
+    },
+    {
+        "country": "United States",
+        "country_code": "US",
+        "gender": "Male",
+        "language": "English",
+        "name": "en-US-GuyNeural",
+        "speaker_name": "Guy"
+    },
+    {
+        "country": "United States",
+        "country_code": "US",
+        "gender": "Female",
+        "language": "English",
+        "name": "en-US-JennyNeural",
+        "speaker_name": "Jenny"
+    },
+    {
+        "country": "United States",
+        "country_code": "US",
+        "gender": "Female",
+        "language": "English",
+        "name": "en-US-MichelleNeural",
+        "speaker_name": "Michelle"
+    },
+    {
+        "country": "United States",
+        "country_code": "US",
+        "gender": "Male",
+        "language": "English",
+        "name": "en-US-RogerNeural",
+        "speaker_name": "Roger"
+    },
+    {
+        "country": "United States",
+        "country_code": "US",
+        "gender": "Male",
+        "language": "English",
+        "name": "en-US-SteffanNeural",
+        "speaker_name": "Steffan"
+    },
+    {
+        "country": "South Africa",
+        "country_code": "ZA",
+        "gender": "Female",
+        "language": "English",
+        "name": "en-ZA-LeahNeural",
+        "speaker_name": "Leah"
+    },
+    {
+        "country": "South Africa",
+        "country_code": "ZA",
+        "gender": "Male",
+        "language": "English",
+        "name": "en-ZA-LukeNeural",
+        "speaker_name": "Luke"
+    },
+    {
+        "country": "Argentina",
+        "country_code": "AR",
+        "gender": "Female",
+        "language": "Spanish",
+        "name": "es-AR-ElenaNeural",
+        "speaker_name": "Elena"
+    },
+    {
+        "country": "Argentina",
+        "country_code": "AR",
+        "gender": "Male",
+        "language": "Spanish",
+        "name": "es-AR-TomasNeural",
+        "speaker_name": "Tomas"
+    },
+    {
+        "country": "Bolivia, Plurinational State of",
+        "country_code": "BO",
+        "gender": "Male",
+        "language": "Spanish",
+        "name": "es-BO-MarceloNeural",
+        "speaker_name": "Marcelo"
+    },
+    {
+        "country": "Bolivia, Plurinational State of",
+        "country_code": "BO",
+        "gender": "Female",
+        "language": "Spanish",
+        "name": "es-BO-SofiaNeural",
+        "speaker_name": "Sofia"
+    },
+    {
+        "country": "Chile",
+        "country_code": "CL",
+        "gender": "Female",
+        "language": "Spanish",
+        "name": "es-CL-CatalinaNeural",
+        "speaker_name": "Catalina"
+    },
+    {
+        "country": "Chile",
+        "country_code": "CL",
+        "gender": "Male",
+        "language": "Spanish",
+        "name": "es-CL-LorenzoNeural",
+        "speaker_name": "Lorenzo"
+    },
+    {
+        "country": "Colombia",
+        "country_code": "CO",
+        "gender": "Male",
+        "language": "Spanish",
+        "name": "es-CO-GonzaloNeural",
+        "speaker_name": "Gonzalo"
+    },
+    {
+        "country": "Colombia",
+        "country_code": "CO",
+        "gender": "Female",
+        "language": "Spanish",
+        "name": "es-CO-SalomeNeural",
+        "speaker_name": "Salome"
+    },
+    {
+        "country": "Costa Rica",
+        "country_code": "CR",
+        "gender": "Male",
+        "language": "Spanish",
+        "name": "es-CR-JuanNeural",
+        "speaker_name": "Juan"
+    },
+    {
+        "country": "Costa Rica",
+        "country_code": "CR",
+        "gender": "Female",
+        "language": "Spanish",
+        "name": "es-CR-MariaNeural",
+        "speaker_name": "Maria"
+    },
+    {
+        "country": "Cuba",
+        "country_code": "CU",
+        "gender": "Female",
+        "language": "Spanish",
+        "name": "es-CU-BelkysNeural",
+        "speaker_name": "Belkys"
+    },
+    {
+        "country": "Cuba",
+        "country_code": "CU",
+        "gender": "Male",
+        "language": "Spanish",
+        "name": "es-CU-ManuelNeural",
+        "speaker_name": "Manuel"
+    },
+    {
+        "country": "Dominican Republic",
+        "country_code": "DO",
+        "gender": "Male",
+        "language": "Spanish",
+        "name": "es-DO-EmilioNeural",
+        "speaker_name": "Emilio"
+    },
+    {
+        "country": "Dominican Republic",
+        "country_code": "DO",
+        "gender": "Female",
+        "language": "Spanish",
+        "name": "es-DO-RamonaNeural",
+        "speaker_name": "Ramona"
+    },
+    {
+        "country": "Ecuador",
+        "country_code": "EC",
+        "gender": "Female",
+        "language": "Spanish",
+        "name": "es-EC-AndreaNeural",
+        "speaker_name": "Andrea"
+    },
+    {
+        "country": "Ecuador",
+        "country_code": "EC",
+        "gender": "Male",
+        "language": "Spanish",
+        "name": "es-EC-LuisNeural",
+        "speaker_name": "Luis"
+    },
+    {
+        "country": "Spain",
+        "country_code": "ES",
+        "gender": "Male",
+        "language": "Spanish",
+        "name": "es-ES-AlvaroNeural",
+        "speaker_name": "Alvaro"
+    },
+    {
+        "country": "Spain",
+        "country_code": "ES",
+        "gender": "Female",
+        "language": "Spanish",
+        "name": "es-ES-ElviraNeural",
+        "speaker_name": "Elvira"
+    },
+    {
+        "country": "Equatorial Guinea",
+        "country_code": "GQ",
+        "gender": "Male",
+        "language": "Spanish",
+        "name": "es-GQ-JavierNeural",
+        "speaker_name": "Javier"
+    },
+    {
+        "country": "Equatorial Guinea",
+        "country_code": "GQ",
+        "gender": "Female",
+        "language": "Spanish",
+        "name": "es-GQ-TeresaNeural",
+        "speaker_name": "Teresa"
+    },
+    {
+        "country": "Guatemala",
+        "country_code": "GT",
+        "gender": "Male",
+        "language": "Spanish",
+        "name": "es-GT-AndresNeural",
+        "speaker_name": "Andres"
+    },
+    {
+        "country": "Guatemala",
+        "country_code": "GT",
+        "gender": "Female",
+        "language": "Spanish",
+        "name": "es-GT-MartaNeural",
+        "speaker_name": "Marta"
+    },
+    {
+        "country": "Honduras",
+        "country_code": "HN",
+        "gender": "Male",
+        "language": "Spanish",
+        "name": "es-HN-CarlosNeural",
+        "speaker_name": "Carlos"
+    },
+    {
+        "country": "Honduras",
+        "country_code": "HN",
+        "gender": "Female",
+        "language": "Spanish",
+        "name": "es-HN-KarlaNeural",
+        "speaker_name": "Karla"
+    },
+    {
+        "country": "Mexico",
+        "country_code": "MX",
+        "gender": "Female",
+        "language": "Spanish",
+        "name": "es-MX-DaliaNeural",
+        "speaker_name": "Dalia"
+    },
+    {
+        "country": "Mexico",
+        "country_code": "MX",
+        "gender": "Male",
+        "language": "Spanish",
+        "name": "es-MX-JorgeNeural",
+        "speaker_name": "Jorge"
+    },
+    {
+        "country": "Nicaragua",
+        "country_code": "NI",
+        "gender": "Male",
+        "language": "Spanish",
+        "name": "es-NI-FedericoNeural",
+        "speaker_name": "Federico"
+    },
+    {
+        "country": "Nicaragua",
+        "country_code": "NI",
+        "gender": "Female",
+        "language": "Spanish",
+        "name": "es-NI-YolandaNeural",
+        "speaker_name": "Yolanda"
+    },
+    {
+        "country": "Panama",
+        "country_code": "PA",
+        "gender": "Female",
+        "language": "Spanish",
+        "name": "es-PA-MargaritaNeural",
+        "speaker_name": "Margarita"
+    },
+    {
+        "country": "Panama",
+        "country_code": "PA",
+        "gender": "Male",
+        "language": "Spanish",
+        "name": "es-PA-RobertoNeural",
+        "speaker_name": "Roberto"
+    },
+    {
+        "country": "Peru",
+        "country_code": "PE",
+        "gender": "Male",
+        "language": "Spanish",
+        "name": "es-PE-AlexNeural",
+        "speaker_name": "Alex"
+    },
+    {
+        "country": "Peru",
+        "country_code": "PE",
+        "gender": "Female",
+        "language": "Spanish",
+        "name": "es-PE-CamilaNeural",
+        "speaker_name": "Camila"
+    },
+    {
+        "country": "Puerto Rico",
+        "country_code": "PR",
+        "gender": "Female",
+        "language": "Spanish",
+        "name": "es-PR-KarinaNeural",
+        "speaker_name": "Karina"
+    },
+    {
+        "country": "Puerto Rico",
+        "country_code": "PR",
+        "gender": "Male",
+        "language": "Spanish",
+        "name": "es-PR-VictorNeural",
+        "speaker_name": "Victor"
+    },
+    {
+        "country": "Paraguay",
+        "country_code": "PY",
+        "gender": "Male",
+        "language": "Spanish",
+        "name": "es-PY-MarioNeural",
+        "speaker_name": "Mario"
+    },
+    {
+        "country": "Paraguay",
+        "country_code": "PY",
+        "gender": "Female",
+        "language": "Spanish",
+        "name": "es-PY-TaniaNeural",
+        "speaker_name": "Tania"
+    },
+    {
+        "country": "El Salvador",
+        "country_code": "SV",
+        "gender": "Female",
+        "language": "Spanish",
+        "name": "es-SV-LorenaNeural",
+        "speaker_name": "Lorena"
+    },
+    {
+        "country": "El Salvador",
+        "country_code": "SV",
+        "gender": "Male",
+        "language": "Spanish",
+        "name": "es-SV-RodrigoNeural",
+        "speaker_name": "Rodrigo"
+    },
+    {
+        "country": "United States",
+        "country_code": "US",
+        "gender": "Male",
+        "language": "Spanish",
+        "name": "es-US-AlonsoNeural",
+        "speaker_name": "Alonso"
+    },
+    {
+        "country": "United States",
+        "country_code": "US",
+        "gender": "Female",
+        "language": "Spanish",
+        "name": "es-US-PalomaNeural",
+        "speaker_name": "Paloma"
+    },
+    {
+        "country": "Uruguay",
+        "country_code": "UY",
+        "gender": "Male",
+        "language": "Spanish",
+        "name": "es-UY-MateoNeural",
+        "speaker_name": "Mateo"
+    },
+    {
+        "country": "Uruguay",
+        "country_code": "UY",
+        "gender": "Female",
+        "language": "Spanish",
+        "name": "es-UY-ValentinaNeural",
+        "speaker_name": "Valentina"
+    },
+    {
+        "country": "Venezuela, Bolivarian Republic of",
+        "country_code": "VE",
+        "gender": "Female",
+        "language": "Spanish",
+        "name": "es-VE-PaolaNeural",
+        "speaker_name": "Paola"
+    },
+    {
+        "country": "Venezuela, Bolivarian Republic of",
+        "country_code": "VE",
+        "gender": "Male",
+        "language": "Spanish",
+        "name": "es-VE-SebastianNeural",
+        "speaker_name": "Sebastian"
+    },
+    {
+        "country": "Estonia",
+        "country_code": "EE",
+        "gender": "Female",
+        "language": "Estonian",
+        "name": "et-EE-AnuNeural",
+        "speaker_name": "Anu"
+    },
+    {
+        "country": "Estonia",
+        "country_code": "EE",
+        "gender": "Male",
+        "language": "Estonian",
+        "name": "et-EE-KertNeural",
+        "speaker_name": "Kert"
+    },
+    {
+        "country": "Iran, Islamic Republic of",
+        "country_code": "IR",
+        "gender": "Female",
+        "language": "Persian",
+        "name": "fa-IR-DilaraNeural",
+        "speaker_name": "Dilara"
+    },
+    {
+        "country": "Iran, Islamic Republic of",
+        "country_code": "IR",
+        "gender": "Male",
+        "language": "Persian",
+        "name": "fa-IR-FaridNeural",
+        "speaker_name": "Farid"
+    },
+    {
+        "country": "Finland",
+        "country_code": "FI",
+        "gender": "Male",
+        "language": "Finnish",
+        "name": "fi-FI-HarriNeural",
+        "speaker_name": "Harri"
+    },
+    {
+        "country": "Finland",
+        "country_code": "FI",
+        "gender": "Female",
+        "language": "Finnish",
+        "name": "fi-FI-NooraNeural",
+        "speaker_name": "Noora"
+    },
+    {
+        "country": "Belgium",
+        "country_code": "BE",
+        "gender": "Female",
+        "language": "French",
+        "name": "fr-BE-CharlineNeural",
+        "speaker_name": "Charline"
+    },
+    {
+        "country": "Belgium",
+        "country_code": "BE",
+        "gender": "Male",
+        "language": "French",
+        "name": "fr-BE-GerardNeural",
+        "speaker_name": "Gerard"
+    },
+    {
+        "country": "Canada",
+        "country_code": "CA",
+        "gender": "Male",
+        "language": "French",
+        "name": "fr-CA-AntoineNeural",
+        "speaker_name": "Antoine"
+    },
+    {
+        "country": "Canada",
+        "country_code": "CA",
+        "gender": "Male",
+        "language": "French",
+        "name": "fr-CA-JeanNeural",
+        "speaker_name": "Jean"
+    },
+    {
+        "country": "Canada",
+        "country_code": "CA",
+        "gender": "Female",
+        "language": "French",
+        "name": "fr-CA-SylvieNeural",
+        "speaker_name": "Sylvie"
+    },
+    {
+        "country": "Switzerland",
+        "country_code": "CH",
+        "gender": "Female",
+        "language": "French",
+        "name": "fr-CH-ArianeNeural",
+        "speaker_name": "Ariane"
+    },
+    {
+        "country": "Switzerland",
+        "country_code": "CH",
+        "gender": "Male",
+        "language": "French",
+        "name": "fr-CH-FabriceNeural",
+        "speaker_name": "Fabrice"
+    },
+    {
+        "country": "France",
+        "country_code": "FR",
+        "gender": "Female",
+        "language": "French",
+        "name": "fr-FR-DeniseNeural",
+        "speaker_name": "Denise"
+    },
+    {
+        "country": "France",
+        "country_code": "FR",
+        "gender": "Female",
+        "language": "French",
+        "name": "fr-FR-EloiseNeural",
+        "speaker_name": "Eloise"
+    },
+    {
+        "country": "France",
+        "country_code": "FR",
+        "gender": "Male",
+        "language": "French",
+        "name": "fr-FR-HenriNeural",
+        "speaker_name": "Henri"
+    },
+    {
+        "country": "Ireland",
+        "country_code": "IE",
+        "gender": "Male",
+        "language": "Irish",
+        "name": "ga-IE-ColmNeural",
+        "speaker_name": "Colm"
+    },
+    {
+        "country": "Ireland",
+        "country_code": "IE",
+        "gender": "Female",
+        "language": "Irish",
+        "name": "ga-IE-OrlaNeural",
+        "speaker_name": "Orla"
+    },
+    {
+        "country": "Spain",
+        "country_code": "ES",
+        "gender": "Male",
+        "language": "Galician",
+        "name": "gl-ES-RoiNeural",
+        "speaker_name": "Roi"
+    },
+    {
+        "country": "Spain",
+        "country_code": "ES",
+        "gender": "Female",
+        "language": "Galician",
+        "name": "gl-ES-SabelaNeural",
+        "speaker_name": "Sabela"
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "gender": "Female",
+        "language": "Gujarati",
+        "name": "gu-IN-DhwaniNeural",
+        "speaker_name": "Dhwani"
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "gender": "Male",
+        "language": "Gujarati",
+        "name": "gu-IN-NiranjanNeural",
+        "speaker_name": "Niranjan"
+    },
+    {
+        "country": "Israel",
+        "country_code": "IL",
+        "gender": "Male",
+        "language": "Hebrew",
+        "name": "he-IL-AvriNeural",
+        "speaker_name": "Avri"
+    },
+    {
+        "country": "Israel",
+        "country_code": "IL",
+        "gender": "Female",
+        "language": "Hebrew",
+        "name": "he-IL-HilaNeural",
+        "speaker_name": "Hila"
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "gender": "Male",
+        "language": "Hindi",
+        "name": "hi-IN-MadhurNeural",
+        "speaker_name": "Madhur"
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "gender": "Female",
+        "language": "Hindi",
+        "name": "hi-IN-SwaraNeural",
+        "speaker_name": "Swara"
+    },
+    {
+        "country": "Croatia",
+        "country_code": "HR",
+        "gender": "Female",
+        "language": "Croatian",
+        "name": "hr-HR-GabrijelaNeural",
+        "speaker_name": "Gabrijela"
+    },
+    {
+        "country": "Croatia",
+        "country_code": "HR",
+        "gender": "Male",
+        "language": "Croatian",
+        "name": "hr-HR-SreckoNeural",
+        "speaker_name": "Srecko"
+    },
+    {
+        "country": "Hungary",
+        "country_code": "HU",
+        "gender": "Female",
+        "language": "Hungarian",
+        "name": "hu-HU-NoemiNeural",
+        "speaker_name": "Noemi"
+    },
+    {
+        "country": "Hungary",
+        "country_code": "HU",
+        "gender": "Male",
+        "language": "Hungarian",
+        "name": "hu-HU-TamasNeural",
+        "speaker_name": "Tamas"
+    },
+    {
+        "country": "Indonesia",
+        "country_code": "ID",
+        "gender": "Male",
+        "language": "Indonesian",
+        "name": "id-ID-ArdiNeural",
+        "speaker_name": "Ardi"
+    },
+    {
+        "country": "Indonesia",
+        "country_code": "ID",
+        "gender": "Female",
+        "language": "Indonesian",
+        "name": "id-ID-GadisNeural",
+        "speaker_name": "Gadis"
+    },
+    {
+        "country": "Iceland",
+        "country_code": "IS",
+        "gender": "Female",
+        "language": "Icelandic",
+        "name": "is-IS-GudrunNeural",
+        "speaker_name": "Gudrun"
+    },
+    {
+        "country": "Iceland",
+        "country_code": "IS",
+        "gender": "Male",
+        "language": "Icelandic",
+        "name": "is-IS-GunnarNeural",
+        "speaker_name": "Gunnar"
+    },
+    {
+        "country": "Italy",
+        "country_code": "IT",
+        "gender": "Male",
+        "language": "Italian",
+        "name": "it-IT-DiegoNeural",
+        "speaker_name": "Diego"
+    },
+    {
+        "country": "Italy",
+        "country_code": "IT",
+        "gender": "Female",
+        "language": "Italian",
+        "name": "it-IT-ElsaNeural",
+        "speaker_name": "Elsa"
+    },
+    {
+        "country": "Italy",
+        "country_code": "IT",
+        "gender": "Female",
+        "language": "Italian",
+        "name": "it-IT-IsabellaNeural",
+        "speaker_name": "Isabella"
+    },
+    {
+        "country": "Japan",
+        "country_code": "JP",
+        "gender": "Male",
+        "language": "Japanese",
+        "name": "ja-JP-KeitaNeural",
+        "speaker_name": "Keita"
+    },
+    {
+        "country": "Japan",
+        "country_code": "JP",
+        "gender": "Female",
+        "language": "Japanese",
+        "name": "ja-JP-NanamiNeural",
+        "speaker_name": "Nanami"
+    },
+    {
+        "country": "Indonesia",
+        "country_code": "ID",
+        "gender": "Male",
+        "language": "Javanese",
+        "name": "jv-ID-DimasNeural",
+        "speaker_name": "Dimas"
+    },
+    {
+        "country": "Indonesia",
+        "country_code": "ID",
+        "gender": "Female",
+        "language": "Javanese",
+        "name": "jv-ID-SitiNeural",
+        "speaker_name": "Siti"
+    },
+    {
+        "country": "Georgia",
+        "country_code": "GE",
+        "gender": "Female",
+        "language": "Georgian",
+        "name": "ka-GE-EkaNeural",
+        "speaker_name": "Eka"
+    },
+    {
+        "country": "Georgia",
+        "country_code": "GE",
+        "gender": "Male",
+        "language": "Georgian",
+        "name": "ka-GE-GiorgiNeural",
+        "speaker_name": "Giorgi"
+    },
+    {
+        "country": "Kazakhstan",
+        "country_code": "KZ",
+        "gender": "Female",
+        "language": "Kazakh",
+        "name": "kk-KZ-AigulNeural",
+        "speaker_name": "Aigul"
+    },
+    {
+        "country": "Kazakhstan",
+        "country_code": "KZ",
+        "gender": "Male",
+        "language": "Kazakh",
+        "name": "kk-KZ-DauletNeural",
+        "speaker_name": "Daulet"
+    },
+    {
+        "country": "Cambodia",
+        "country_code": "KH",
+        "gender": "Male",
+        "language": "Central Khmer",
+        "name": "km-KH-PisethNeural",
+        "speaker_name": "Piseth"
+    },
+    {
+        "country": "Cambodia",
+        "country_code": "KH",
+        "gender": "Female",
+        "language": "Central Khmer",
+        "name": "km-KH-SreymomNeural",
+        "speaker_name": "Sreymom"
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "gender": "Male",
+        "language": "Kannada",
+        "name": "kn-IN-GaganNeural",
+        "speaker_name": "Gagan"
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "gender": "Female",
+        "language": "Kannada",
+        "name": "kn-IN-SapnaNeural",
+        "speaker_name": "Sapna"
+    },
+    {
+        "country": "Korea, Republic of",
+        "country_code": "KR",
+        "gender": "Male",
+        "language": "Korean",
+        "name": "ko-KR-InJoonNeural",
+        "speaker_name": "InJoon"
+    },
+    {
+        "country": "Korea, Republic of",
+        "country_code": "KR",
+        "gender": "Female",
+        "language": "Korean",
+        "name": "ko-KR-SunHiNeural",
+        "speaker_name": "SunHi"
+    },
+    {
+        "country": "Lao People's Democratic Republic",
+        "country_code": "LA",
+        "gender": "Male",
+        "language": "Lao",
+        "name": "lo-LA-ChanthavongNeural",
+        "speaker_name": "Chanthavong"
+    },
+    {
+        "country": "Lao People's Democratic Republic",
+        "country_code": "LA",
+        "gender": "Female",
+        "language": "Lao",
+        "name": "lo-LA-KeomanyNeural",
+        "speaker_name": "Keomany"
+    },
+    {
+        "country": "Lithuania",
+        "country_code": "LT",
+        "gender": "Male",
+        "language": "Lithuanian",
+        "name": "lt-LT-LeonasNeural",
+        "speaker_name": "Leonas"
+    },
+    {
+        "country": "Lithuania",
+        "country_code": "LT",
+        "gender": "Female",
+        "language": "Lithuanian",
+        "name": "lt-LT-OnaNeural",
+        "speaker_name": "Ona"
+    },
+    {
+        "country": "Latvia",
+        "country_code": "LV",
+        "gender": "Female",
+        "language": "Latvian",
+        "name": "lv-LV-EveritaNeural",
+        "speaker_name": "Everita"
+    },
+    {
+        "country": "Latvia",
+        "country_code": "LV",
+        "gender": "Male",
+        "language": "Latvian",
+        "name": "lv-LV-NilsNeural",
+        "speaker_name": "Nils"
+    },
+    {
+        "country": "North Macedonia",
+        "country_code": "MK",
+        "gender": "Male",
+        "language": "Macedonian",
+        "name": "mk-MK-AleksandarNeural",
+        "speaker_name": "Aleksandar"
+    },
+    {
+        "country": "North Macedonia",
+        "country_code": "MK",
+        "gender": "Female",
+        "language": "Macedonian",
+        "name": "mk-MK-MarijaNeural",
+        "speaker_name": "Marija"
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "gender": "Male",
+        "language": "Malayalam",
+        "name": "ml-IN-MidhunNeural",
+        "speaker_name": "Midhun"
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "gender": "Female",
+        "language": "Malayalam",
+        "name": "ml-IN-SobhanaNeural",
+        "speaker_name": "Sobhana"
+    },
+    {
+        "country": "Mongolia",
+        "country_code": "MN",
+        "gender": "Male",
+        "language": "Mongolian",
+        "name": "mn-MN-BataaNeural",
+        "speaker_name": "Bataa"
+    },
+    {
+        "country": "Mongolia",
+        "country_code": "MN",
+        "gender": "Female",
+        "language": "Mongolian",
+        "name": "mn-MN-YesuiNeural",
+        "speaker_name": "Yesui"
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "gender": "Female",
+        "language": "Marathi",
+        "name": "mr-IN-AarohiNeural",
+        "speaker_name": "Aarohi"
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "gender": "Male",
+        "language": "Marathi",
+        "name": "mr-IN-ManoharNeural",
+        "speaker_name": "Manohar"
+    },
+    {
+        "country": "Malaysia",
+        "country_code": "MY",
+        "gender": "Male",
+        "language": "Malay (macrolanguage)",
+        "name": "ms-MY-OsmanNeural",
+        "speaker_name": "Osman"
+    },
+    {
+        "country": "Malaysia",
+        "country_code": "MY",
+        "gender": "Female",
+        "language": "Malay (macrolanguage)",
+        "name": "ms-MY-YasminNeural",
+        "speaker_name": "Yasmin"
+    },
+    {
+        "country": "Malta",
+        "country_code": "MT",
+        "gender": "Female",
+        "language": "Maltese",
+        "name": "mt-MT-GraceNeural",
+        "speaker_name": "Grace"
+    },
+    {
+        "country": "Malta",
+        "country_code": "MT",
+        "gender": "Male",
+        "language": "Maltese",
+        "name": "mt-MT-JosephNeural",
+        "speaker_name": "Joseph"
+    },
+    {
+        "country": "Myanmar",
+        "country_code": "MM",
+        "gender": "Female",
+        "language": "Burmese",
+        "name": "my-MM-NilarNeural",
+        "speaker_name": "Nilar"
+    },
+    {
+        "country": "Myanmar",
+        "country_code": "MM",
+        "gender": "Male",
+        "language": "Burmese",
+        "name": "my-MM-ThihaNeural",
+        "speaker_name": "Thiha"
+    },
+    {
+        "country": "Norway",
+        "country_code": "NO",
+        "gender": "Male",
+        "language": "Norwegian Bokmål",
+        "name": "nb-NO-FinnNeural",
+        "speaker_name": "Finn"
+    },
+    {
+        "country": "Norway",
+        "country_code": "NO",
+        "gender": "Female",
+        "language": "Norwegian Bokmål",
+        "name": "nb-NO-PernilleNeural",
+        "speaker_name": "Pernille"
+    },
+    {
+        "country": "Nepal",
+        "country_code": "NP",
+        "gender": "Female",
+        "language": "Nepali (macrolanguage)",
+        "name": "ne-NP-HemkalaNeural",
+        "speaker_name": "Hemkala"
+    },
+    {
+        "country": "Nepal",
+        "country_code": "NP",
+        "gender": "Male",
+        "language": "Nepali (macrolanguage)",
+        "name": "ne-NP-SagarNeural",
+        "speaker_name": "Sagar"
+    },
+    {
+        "country": "Belgium",
+        "country_code": "BE",
+        "gender": "Male",
+        "language": "Dutch",
+        "name": "nl-BE-ArnaudNeural",
+        "speaker_name": "Arnaud"
+    },
+    {
+        "country": "Belgium",
+        "country_code": "BE",
+        "gender": "Female",
+        "language": "Dutch",
+        "name": "nl-BE-DenaNeural",
+        "speaker_name": "Dena"
+    },
+    {
+        "country": "Netherlands",
+        "country_code": "NL",
+        "gender": "Female",
+        "language": "Dutch",
+        "name": "nl-NL-ColetteNeural",
+        "speaker_name": "Colette"
+    },
+    {
+        "country": "Netherlands",
+        "country_code": "NL",
+        "gender": "Female",
+        "language": "Dutch",
+        "name": "nl-NL-FennaNeural",
+        "speaker_name": "Fenna"
+    },
+    {
+        "country": "Netherlands",
+        "country_code": "NL",
+        "gender": "Male",
+        "language": "Dutch",
+        "name": "nl-NL-MaartenNeural",
+        "speaker_name": "Maarten"
+    },
+    {
+        "country": "Poland",
+        "country_code": "PL",
+        "gender": "Male",
+        "language": "Polish",
+        "name": "pl-PL-MarekNeural",
+        "speaker_name": "Marek"
+    },
+    {
+        "country": "Poland",
+        "country_code": "PL",
+        "gender": "Female",
+        "language": "Polish",
+        "name": "pl-PL-ZofiaNeural",
+        "speaker_name": "Zofia"
+    },
+    {
+        "country": "Afghanistan",
+        "country_code": "AF",
+        "gender": "Male",
+        "language": "Pushto",
+        "name": "ps-AF-GulNawazNeural",
+        "speaker_name": "GulNawaz"
+    },
+    {
+        "country": "Afghanistan",
+        "country_code": "AF",
+        "gender": "Female",
+        "language": "Pushto",
+        "name": "ps-AF-LatifaNeural",
+        "speaker_name": "Latifa"
+    },
+    {
+        "country": "Brazil",
+        "country_code": "BR",
+        "gender": "Male",
+        "language": "Portuguese",
+        "name": "pt-BR-AntonioNeural",
+        "speaker_name": "Antonio"
+    },
+    {
+        "country": "Brazil",
+        "country_code": "BR",
+        "gender": "Female",
+        "language": "Portuguese",
+        "name": "pt-BR-FranciscaNeural",
+        "speaker_name": "Francisca"
+    },
+    {
+        "country": "Portugal",
+        "country_code": "PT",
+        "gender": "Male",
+        "language": "Portuguese",
+        "name": "pt-PT-DuarteNeural",
+        "speaker_name": "Duarte"
+    },
+    {
+        "country": "Portugal",
+        "country_code": "PT",
+        "gender": "Female",
+        "language": "Portuguese",
+        "name": "pt-PT-RaquelNeural",
+        "speaker_name": "Raquel"
+    },
+    {
+        "country": "Romania",
+        "country_code": "RO",
+        "gender": "Female",
+        "language": "Romanian",
+        "name": "ro-RO-AlinaNeural",
+        "speaker_name": "Alina"
+    },
+    {
+        "country": "Romania",
+        "country_code": "RO",
+        "gender": "Male",
+        "language": "Romanian",
+        "name": "ro-RO-EmilNeural",
+        "speaker_name": "Emil"
+    },
+    {
+        "country": "Russian Federation",
+        "country_code": "RU",
+        "gender": "Male",
+        "language": "Russian",
+        "name": "ru-RU-DmitryNeural",
+        "speaker_name": "Dmitry"
+    },
+    {
+        "country": "Russian Federation",
+        "country_code": "RU",
+        "gender": "Female",
+        "language": "Russian",
+        "name": "ru-RU-SvetlanaNeural",
+        "speaker_name": "Svetlana"
+    },
+    {
+        "country": "Sri Lanka",
+        "country_code": "LK",
+        "gender": "Male",
+        "language": "Sinhala",
+        "name": "si-LK-SameeraNeural",
+        "speaker_name": "Sameera"
+    },
+    {
+        "country": "Sri Lanka",
+        "country_code": "LK",
+        "gender": "Female",
+        "language": "Sinhala",
+        "name": "si-LK-ThiliniNeural",
+        "speaker_name": "Thilini"
+    },
+    {
+        "country": "Slovakia",
+        "country_code": "SK",
+        "gender": "Male",
+        "language": "Slovak",
+        "name": "sk-SK-LukasNeural",
+        "speaker_name": "Lukas"
+    },
+    {
+        "country": "Slovakia",
+        "country_code": "SK",
+        "gender": "Female",
+        "language": "Slovak",
+        "name": "sk-SK-ViktoriaNeural",
+        "speaker_name": "Viktoria"
+    },
+    {
+        "country": "Slovenia",
+        "country_code": "SI",
+        "gender": "Female",
+        "language": "Slovenian",
+        "name": "sl-SI-PetraNeural",
+        "speaker_name": "Petra"
+    },
+    {
+        "country": "Slovenia",
+        "country_code": "SI",
+        "gender": "Male",
+        "language": "Slovenian",
+        "name": "sl-SI-RokNeural",
+        "speaker_name": "Rok"
+    },
+    {
+        "country": "Somalia",
+        "country_code": "SO",
+        "gender": "Male",
+        "language": "Somali",
+        "name": "so-SO-MuuseNeural",
+        "speaker_name": "Muuse"
+    },
+    {
+        "country": "Somalia",
+        "country_code": "SO",
+        "gender": "Female",
+        "language": "Somali",
+        "name": "so-SO-UbaxNeural",
+        "speaker_name": "Ubax"
+    },
+    {
+        "country": "Albania",
+        "country_code": "AL",
+        "gender": "Female",
+        "language": "Albanian",
+        "name": "sq-AL-AnilaNeural",
+        "speaker_name": "Anila"
+    },
+    {
+        "country": "Albania",
+        "country_code": "AL",
+        "gender": "Male",
+        "language": "Albanian",
+        "name": "sq-AL-IlirNeural",
+        "speaker_name": "Ilir"
+    },
+    {
+        "country": "Serbia",
+        "country_code": "RS",
+        "gender": "Male",
+        "language": "Serbian",
+        "name": "sr-RS-NicholasNeural",
+        "speaker_name": "Nicholas"
+    },
+    {
+        "country": "Serbia",
+        "country_code": "RS",
+        "gender": "Female",
+        "language": "Serbian",
+        "name": "sr-RS-SophieNeural",
+        "speaker_name": "Sophie"
+    },
+    {
+        "country": "Indonesia",
+        "country_code": "ID",
+        "gender": "Male",
+        "language": "Sundanese",
+        "name": "su-ID-JajangNeural",
+        "speaker_name": "Jajang"
+    },
+    {
+        "country": "Indonesia",
+        "country_code": "ID",
+        "gender": "Female",
+        "language": "Sundanese",
+        "name": "su-ID-TutiNeural",
+        "speaker_name": "Tuti"
+    },
+    {
+        "country": "Sweden",
+        "country_code": "SE",
+        "gender": "Male",
+        "language": "Swedish",
+        "name": "sv-SE-MattiasNeural",
+        "speaker_name": "Mattias"
+    },
+    {
+        "country": "Sweden",
+        "country_code": "SE",
+        "gender": "Female",
+        "language": "Swedish",
+        "name": "sv-SE-SofieNeural",
+        "speaker_name": "Sofie"
+    },
+    {
+        "country": "Kenya",
+        "country_code": "KE",
+        "gender": "Male",
+        "language": "Swahili (macrolanguage)",
+        "name": "sw-KE-RafikiNeural",
+        "speaker_name": "Rafiki"
+    },
+    {
+        "country": "Kenya",
+        "country_code": "KE",
+        "gender": "Female",
+        "language": "Swahili (macrolanguage)",
+        "name": "sw-KE-ZuriNeural",
+        "speaker_name": "Zuri"
+    },
+    {
+        "country": "Tanzania, United Republic of",
+        "country_code": "TZ",
+        "gender": "Male",
+        "language": "Swahili (macrolanguage)",
+        "name": "sw-TZ-DaudiNeural",
+        "speaker_name": "Daudi"
+    },
+    {
+        "country": "Tanzania, United Republic of",
+        "country_code": "TZ",
+        "gender": "Female",
+        "language": "Swahili (macrolanguage)",
+        "name": "sw-TZ-RehemaNeural",
+        "speaker_name": "Rehema"
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "gender": "Female",
+        "language": "Tamil",
+        "name": "ta-IN-PallaviNeural",
+        "speaker_name": "Pallavi"
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "gender": "Male",
+        "language": "Tamil",
+        "name": "ta-IN-ValluvarNeural",
+        "speaker_name": "Valluvar"
+    },
+    {
+        "country": "Sri Lanka",
+        "country_code": "LK",
+        "gender": "Male",
+        "language": "Tamil",
+        "name": "ta-LK-KumarNeural",
+        "speaker_name": "Kumar"
+    },
+    {
+        "country": "Sri Lanka",
+        "country_code": "LK",
+        "gender": "Female",
+        "language": "Tamil",
+        "name": "ta-LK-SaranyaNeural",
+        "speaker_name": "Saranya"
+    },
+    {
+        "country": "Malaysia",
+        "country_code": "MY",
+        "gender": "Female",
+        "language": "Tamil",
+        "name": "ta-MY-KaniNeural",
+        "speaker_name": "Kani"
+    },
+    {
+        "country": "Malaysia",
+        "country_code": "MY",
+        "gender": "Male",
+        "language": "Tamil",
+        "name": "ta-MY-SuryaNeural",
+        "speaker_name": "Surya"
+    },
+    {
+        "country": "Singapore",
+        "country_code": "SG",
+        "gender": "Male",
+        "language": "Tamil",
+        "name": "ta-SG-AnbuNeural",
+        "speaker_name": "Anbu"
+    },
+    {
+        "country": "Singapore",
+        "country_code": "SG",
+        "gender": "Female",
+        "language": "Tamil",
+        "name": "ta-SG-VenbaNeural",
+        "speaker_name": "Venba"
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "gender": "Male",
+        "language": "Telugu",
+        "name": "te-IN-MohanNeural",
+        "speaker_name": "Mohan"
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "gender": "Female",
+        "language": "Telugu",
+        "name": "te-IN-ShrutiNeural",
+        "speaker_name": "Shruti"
+    },
+    {
+        "country": "Thailand",
+        "country_code": "TH",
+        "gender": "Male",
+        "language": "Thai",
+        "name": "th-TH-NiwatNeural",
+        "speaker_name": "Niwat"
+    },
+    {
+        "country": "Thailand",
+        "country_code": "TH",
+        "gender": "Female",
+        "language": "Thai",
+        "name": "th-TH-PremwadeeNeural",
+        "speaker_name": "Premwadee"
+    },
+    {
+        "country": "Turkey",
+        "country_code": "TR",
+        "gender": "Male",
+        "language": "Turkish",
+        "name": "tr-TR-AhmetNeural",
+        "speaker_name": "Ahmet"
+    },
+    {
+        "country": "Turkey",
+        "country_code": "TR",
+        "gender": "Female",
+        "language": "Turkish",
+        "name": "tr-TR-EmelNeural",
+        "speaker_name": "Emel"
+    },
+    {
+        "country": "Ukraine",
+        "country_code": "UA",
+        "gender": "Male",
+        "language": "Ukrainian",
+        "name": "uk-UA-OstapNeural",
+        "speaker_name": "Ostap"
+    },
+    {
+        "country": "Ukraine",
+        "country_code": "UA",
+        "gender": "Female",
+        "language": "Ukrainian",
+        "name": "uk-UA-PolinaNeural",
+        "speaker_name": "Polina"
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "gender": "Female",
+        "language": "Urdu",
+        "name": "ur-IN-GulNeural",
+        "speaker_name": "Gul"
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "gender": "Male",
+        "language": "Urdu",
+        "name": "ur-IN-SalmanNeural",
+        "speaker_name": "Salman"
+    },
+    {
+        "country": "Pakistan",
+        "country_code": "PK",
+        "gender": "Male",
+        "language": "Urdu",
+        "name": "ur-PK-AsadNeural",
+        "speaker_name": "Asad"
+    },
+    {
+        "country": "Pakistan",
+        "country_code": "PK",
+        "gender": "Female",
+        "language": "Urdu",
+        "name": "ur-PK-UzmaNeural",
+        "speaker_name": "Uzma"
+    },
+    {
+        "country": "Uzbekistan",
+        "country_code": "UZ",
+        "gender": "Female",
+        "language": "Uzbek",
+        "name": "uz-UZ-MadinaNeural",
+        "speaker_name": "Madina"
+    },
+    {
+        "country": "Uzbekistan",
+        "country_code": "UZ",
+        "gender": "Male",
+        "language": "Uzbek",
+        "name": "uz-UZ-SardorNeural",
+        "speaker_name": "Sardor"
+    },
+    {
+        "country": "Viet Nam",
+        "country_code": "VN",
+        "gender": "Female",
+        "language": "Vietnamese",
+        "name": "vi-VN-HoaiMyNeural",
+        "speaker_name": "HoaiMy"
+    },
+    {
+        "country": "Viet Nam",
+        "country_code": "VN",
+        "gender": "Male",
+        "language": "Vietnamese",
+        "name": "vi-VN-NamMinhNeural",
+        "speaker_name": "NamMinh"
+    },
+    {
+        "country": "China",
+        "country_code": "CN",
+        "gender": "Female",
+        "language": "Chinese",
+        "name": "zh-CN-XiaoxiaoNeural",
+        "speaker_name": "Xiaoxiao"
+    },
+    {
+        "country": "China",
+        "country_code": "CN",
+        "gender": "Female",
+        "language": "Chinese",
+        "name": "zh-CN-XiaoyiNeural",
+        "speaker_name": "Xiaoyi"
+    },
+    {
+        "country": "China",
+        "country_code": "CN",
+        "gender": "Male",
+        "language": "Chinese",
+        "name": "zh-CN-YunjianNeural",
+        "speaker_name": "Yunjian"
+    },
+    {
+        "country": "China",
+        "country_code": "CN",
+        "gender": "Male",
+        "language": "Chinese",
+        "name": "zh-CN-YunxiNeural",
+        "speaker_name": "Yunxi"
+    },
+    {
+        "country": "China",
+        "country_code": "CN",
+        "gender": "Male",
+        "language": "Chinese",
+        "name": "zh-CN-YunxiaNeural",
+        "speaker_name": "Yunxia"
+    },
+    {
+        "country": "China",
+        "country_code": "CN",
+        "gender": "Male",
+        "language": "Chinese",
+        "name": "zh-CN-YunyangNeural",
+        "speaker_name": "Yunyang"
+    },
+    {
+        "country": "China",
+        "country_code": "CN",
+        "gender": "Female",
+        "language": "Chinese",
+        "name": "zh-CN-liaoning-XiaobeiNeural",
+        "speaker_name": "liaoning"
+    },
+    {
+        "country": "China",
+        "country_code": "CN",
+        "gender": "Female",
+        "language": "Chinese",
+        "name": "zh-CN-shaanxi-XiaoniNeural",
+        "speaker_name": "shaanxi"
+    },
+    {
+        "country": "Hong Kong",
+        "country_code": "HK",
+        "gender": "Female",
+        "language": "Chinese",
+        "name": "zh-HK-HiuGaaiNeural",
+        "speaker_name": "HiuGaai"
+    },
+    {
+        "country": "Hong Kong",
+        "country_code": "HK",
+        "gender": "Female",
+        "language": "Chinese",
+        "name": "zh-HK-HiuMaanNeural",
+        "speaker_name": "HiuMaan"
+    },
+    {
+        "country": "Hong Kong",
+        "country_code": "HK",
+        "gender": "Male",
+        "language": "Chinese",
+        "name": "zh-HK-WanLungNeural",
+        "speaker_name": "WanLung"
+    },
+    {
+        "country": "Taiwan, Province of China",
+        "country_code": "TW",
+        "gender": "Female",
+        "language": "Chinese",
+        "name": "zh-TW-HsiaoChenNeural",
+        "speaker_name": "HsiaoChen"
+    },
+    {
+        "country": "Taiwan, Province of China",
+        "country_code": "TW",
+        "gender": "Female",
+        "language": "Chinese",
+        "name": "zh-TW-HsiaoYuNeural",
+        "speaker_name": "HsiaoYu"
+    },
+    {
+        "country": "Taiwan",
+        "country_code": "TW",
+        "gender": "Male",
+        "language": "Chinese",
+        "name": "zh-TW-YunJheNeural",
+        "speaker_name": "YunJhe"
+    },
+    {
+        "country": "South Africa",
+        "country_code": "ZA",
+        "gender": "Female",
+        "language": "Zulu",
+        "name": "zu-ZA-ThandoNeural",
+        "speaker_name": "Thando"
+    },
+    {
+        "country": "South Africa",
+        "country_code": "ZA",
+        "gender": "Male",
+        "language": "Zulu",
+        "name": "zu-ZA-ThembaNeural",
+        "speaker_name": "Themba"
+    }
+]

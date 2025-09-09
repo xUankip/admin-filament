@@ -1,0 +1,33 @@
+<?php
+
+return [
+    'basic_info' => 'Thông tin cơ bản',
+    'contact_info' => 'Thông tin liên hệ',
+    'basic_info_card' => 'Thông tin cơ bản',
+    'contact_info_card' => 'Thông tin liên hệ',
+
+    'name' => 'Tên cửa hàng',
+    'name_helper' => 'Tên của cửa hàng.',
+    'address' => 'Địa chỉ',
+    'address_helper' => 'Nhập địa chỉ cửa hàng.',
+    'city_id' => 'ID Thành phố',
+    'city_id_helper' => 'Nhập ID của thành phố (số).',
+    'lat_lng' => 'Tọa độ',
+    'lat_lng_helper' => 'Nhập tọa độ (vĩ độ, kinh độ).',
+    'is_visible' => 'Hiển thị',
+    'show_helper' => 'Bật để hiển thị cửa hàng trên website.',
+    'hotline' => 'Hotline',
+    'hotline_helper' => 'Nhập số hotline.',
+    'phone' => 'Số điện thoại',
+    'phone_helper' => 'Nhập số điện thoại.',
+    'zalo' => 'Zalo',
+    'zalo_helper' => 'Nhập liên kết Zalo.',
+    'facebook' => 'Facebook',
+    'facebook_helper' => 'Nhập liên kết trang Facebook.',
+    'tiktok' => 'TikTok',
+    'tiktok_helper' => 'Nhập liên kết TikTok.',
+    'opening_hours' => 'Giờ mở cửa',
+    'opening_hours_helper' => 'Chỉ định giờ mở cửa (VD: 7h-22h).',
+    'created_at' => 'Ngày tạo',
+    'updated_at' => 'Ngày cập nhật',
+];

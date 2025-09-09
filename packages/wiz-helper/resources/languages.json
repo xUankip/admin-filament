@@ -1,0 +1,293 @@
+[
+    {
+        "code": "af-ZA",
+        "country": "ZA",
+        "name": "Afrikaans (South Africa)"
+    },
+    {
+        "code": "am-ET",
+        "country": "ET",
+        "name": "Amharic (Ethiopia)"
+    },
+    {
+        "code": "ar-XA",
+        "country": "XA",
+        "name": "Arabic (Arab World)"
+    },
+    {
+        "code": "bg-BG",
+        "country": "BG",
+        "name": "Bulgarian (Bulgaria)"
+    },
+    {
+        "code": "bn-IN",
+        "country": "IN",
+        "name": "Bengali (India)"
+    },
+    {
+        "code": "ca-ES",
+        "country": "ES",
+        "name": "Catalan (Spain)"
+    },
+    {
+        "code": "cmn-CN",
+        "country": "CN",
+        "name": "Mandarin Chinese (China)"
+    },
+    {
+        "code": "cmn-TW",
+        "country": "TW",
+        "name": "Mandarin Chinese (Taiwan)"
+    },
+    {
+        "code": "cs-CZ",
+        "country": "CZ",
+        "name": "Czech (Czech Republic)"
+    },
+    {
+        "code": "da-DK",
+        "country": "DK",
+        "name": "Danish (Denmark)"
+    },
+    {
+        "code": "de-DE",
+        "country": "DE",
+        "name": "German (Germany)"
+    },
+    {
+        "code": "el-GR",
+        "country": "GR",
+        "name": "Greek (Greece)"
+    },
+    {
+        "code": "en-AU",
+        "country": "AU",
+        "name": "English (Australia)"
+    },
+    {
+        "code": "en-GB",
+        "country": "GB",
+        "name": "English (United Kingdom)"
+    },
+    {
+        "code": "en-IN",
+        "country": "IN",
+        "name": "English (India)"
+    },
+    {
+        "code": "en-US",
+        "country": "US",
+        "name": "English (United States)"
+    },
+    {
+        "code": "es-ES",
+        "country": "ES",
+        "name": "Spanish (Spain)"
+    },
+    {
+        "code": "es-US",
+        "country": "US",
+        "name": "Spanish (United States)"
+    },
+    {
+        "code": "eu-ES",
+        "country": "ES",
+        "name": "Basque (Spain)"
+    },
+    {
+        "code": "fi-FI",
+        "country": "FI",
+        "name": "Finnish (Finland)"
+    },
+    {
+        "code": "fil-PH",
+        "country": "PH",
+        "name": "Filipino (Philippines)"
+    },
+    {
+        "code": "fr-CA",
+        "country": "CA",
+        "name": "French (Canada)"
+    },
+    {
+        "code": "fr-FR",
+        "country": "FR",
+        "name": "French (France)"
+    },
+    {
+        "code": "gl-ES",
+        "country": "ES",
+        "name": "Galician (Spain)"
+    },
+    {
+        "code": "gu-IN",
+        "country": "IN",
+        "name": "Gujarati (India)"
+    },
+    {
+        "code": "he-IL",
+        "country": "IL",
+        "name": "Hebrew (Israel)"
+    },
+    {
+        "code": "hi-IN",
+        "country": "IN",
+        "name": "Hindi (India)"
+    },
+    {
+        "code": "hu-HU",
+        "country": "HU",
+        "name": "Hungarian (Hungary)"
+    },
+    {
+        "code": "id-ID",
+        "country": "ID",
+        "name": "Indonesian (Indonesia)"
+    },
+    {
+        "code": "is-IS",
+        "country": "IS",
+        "name": "Icelandic (Iceland)"
+    },
+    {
+        "code": "it-IT",
+        "country": "IT",
+        "name": "Italian (Italy)"
+    },
+    {
+        "code": "ja-JP",
+        "country": "JP",
+        "name": "Japanese (Japan)"
+    },
+    {
+        "code": "kn-IN",
+        "country": "IN",
+        "name": "Kannada (India)"
+    },
+    {
+        "code": "ko-KR",
+        "country": "KR",
+        "name": "Korean (South Korea)"
+    },
+    {
+        "code": "lt-LT",
+        "country": "LT",
+        "name": "Lithuanian (Lithuania)"
+    },
+    {
+        "code": "lv-LV",
+        "country": "LV",
+        "name": "Latvian (Latvia)"
+    },
+    {
+        "code": "ml-IN",
+        "country": "IN",
+        "name": "Malayalam (India)"
+    },
+    {
+        "code": "mr-IN",
+        "country": "IN",
+        "name": "Marathi (India)"
+    },
+    {
+        "code": "ms-MY",
+        "country": "MY",
+        "name": "Malay (Malaysia)"
+    },
+    {
+        "code": "nb-NO",
+        "country": "NO",
+        "name": "Norwegian Bokmål (Norway)"
+    },
+    {
+        "code": "nl-BE",
+        "country": "BE",
+        "name": "Dutch (Belgium)"
+    },
+    {
+        "code": "nl-NL",
+        "country": "NL",
+        "name": "Dutch (Netherlands)"
+    },
+    {
+        "code": "pa-IN",
+        "country": "IN",
+        "name": "Punjabi (India)"
+    },
+    {
+        "code": "pl-PL",
+        "country": "PL",
+        "name": "Polish (Poland)"
+    },
+    {
+        "code": "pt-BR",
+        "country": "BR",
+        "name": "Portuguese (Brazil)"
+    },
+    {
+        "code": "pt-PT",
+        "country": "PT",
+        "name": "Portuguese (Portugal)"
+    },
+    {
+        "code": "ro-RO",
+        "country": "RO",
+        "name": "Romanian (Romania)"
+    },
+    {
+        "code": "ru-RU",
+        "country": "RU",
+        "name": "Russian (Russia)"
+    },
+    {
+        "code": "sk-SK",
+        "country": "SK",
+        "name": "Slovak (Slovakia)"
+    },
+    {
+        "code": "sr-RS",
+        "country": "RS",
+        "name": "Serbian (Serbia)"
+    },
+    {
+        "code": "sv-SE",
+        "country": "SE",
+        "name": "Swedish (Sweden)"
+    },
+    {
+        "code": "ta-IN",
+        "country": "IN",
+        "name": "Tamil (India)"
+    },
+    {
+        "code": "te-IN",
+        "country": "IN",
+        "name": "Telugu (India)"
+    },
+    {
+        "code": "th-TH",
+        "country": "TH",
+        "name": "Thai (Thailand)"
+    },
+    {
+        "code": "tr-TR",
+        "country": "TR",
+        "name": "Turkish (Turkey)"
+    },
+    {
+        "code": "uk-UA",
+        "country": "UA",
+        "name": "Ukrainian (Ukraine)"
+    },
+    {
+        "code": "vi-VN",
+        "country": "VN",
+        "name": "Vietnamese (Vietnam)"
+    },
+    {
+        "code": "yue-HK",
+        "country": "HK",
+        "name": "Cantonese (Hong Kong)"
+    }
+]
+

@@ -1,0 +1,33 @@
+<?php
+
+return [
+    'basic_info' => 'Basic Information',
+    'contact_info' => 'Contact Information',
+    'basic_info_card' => 'Basic Info',
+    'contact_info_card' => 'Contact Info',
+
+    'name' => 'Name',
+    'name_helper' => 'The name of the shop store.',
+    'address' => 'Address',
+    'address_helper' => 'Enter the shop store address.',
+    'city_id' => 'City ID',
+    'city_id_helper' => 'Enter the city ID (numeric).',
+    'lat_lng' => 'Latitude/Longitude',
+    'lat_lng_helper' => 'Enter the coordinates (latitude, longitude).',
+    'is_visible' => 'Visible',
+    'show_helper' => 'Enable to make the shop store visible on the website.',
+    'hotline' => 'Hotline',
+    'hotline_helper' => 'Enter the hotline number.',
+    'phone' => 'Phone',
+    'phone_helper' => 'Enter the phone number.',
+    'zalo' => 'Zalo',
+    'zalo_helper' => 'Enter the Zalo profile link.',
+    'facebook' => 'Facebook',
+    'facebook_helper' => 'Enter the Facebook page link.',
+    'tiktok' => 'TikTok',
+    'tiktok_helper' => 'Enter the TikTok profile link.',
+    'opening_hours' => 'Opening Hours',
+    'opening_hours_helper' => 'Specify the opening hours (e.g., 7h-22h).',
+    'created_at' => 'Created At',
+    'updated_at' => 'Updated At',
+];
