@@ -34,4 +34,7 @@ class ConfigEnum
 
     const HOME_SETTING_HIGHLIGHT = 'HOME_SETTING_HIGHLIGHT';
     const HOME_SETTING_CATEGORY = 'HOME_SETTING_CATEGORY';
+
+    // Add org domain validation config
+    const ORG_DOMAIN_SETTING = 'ORG_DOMAIN_SETTING';
 }

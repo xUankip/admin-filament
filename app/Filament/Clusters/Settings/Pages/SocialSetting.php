@@ -68,6 +68,10 @@ class SocialSetting extends Page implements HasForms, HasActions
                 ]),
 
                 Section::make()->schema([
+                    TextInput::make('staff.email_regex')
+                        ->label('Staff Email Regex')
+                        ->helperText('VD: \\@college\\.edu\\.vn$')
+                        ->placeholder('\\@college\\.edu\\.vn$'),
                     TextInput::make('social.linkedin')
                         ->label(__('setting_social.linkedin'))
                         ->helperText(__('setting_social.linkedin_helper')),
@@ -99,6 +103,11 @@ class SocialSetting extends Page implements HasForms, HasActions
         try {
             $data = $this->form->getState();
             ZiConfig::mergeAndSaveConfig(ConfigEnum::WEBSITE_SETTING, $data);
+            if (!empty($data['staff']['email_regex'])) {
+                ZiConfig::mergeAndSaveConfig(ConfigEnum::ORG_DOMAIN_SETTING, [
+                    'email_regex' => $data['staff']['email_regex'],
+                ]);
+            }
             Notification::make()
                 ->success()
                 ->title(__('filament-panels::resources/pages/edit-record.notifications.saved.title'))

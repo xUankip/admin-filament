@@ -14,8 +14,7 @@ use Illuminate\Support\Collection;
 use Laravel\Sanctum\HasApiTokens;
 use Spatie\Permission\Traits\HasRoles;
 
-class User extends Authenticatable implements FilamentUser, HasTenants
-    //, MustVerifyEmail
+class User extends Authenticatable implements FilamentUser, HasTenants, MustVerifyEmail
 {
     use HasApiTokens;
     use HasFactory;
@@ -40,7 +39,8 @@ class User extends Authenticatable implements FilamentUser, HasTenants
 
     public function canAccessPanel(Panel $panel): bool
     {
-        return true;
+        // Allow all verified users into default admin panel for now; will restrict via roles in policies/resources.
+        return (bool) $this->email_verified_at;
     }
 
     public function canAccessTenant(Model $tenant): bool
