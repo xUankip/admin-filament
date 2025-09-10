@@ -8,9 +8,10 @@ class Settings extends Cluster
 {
     protected static ?string $navigationIcon = 'heroicon-c-cog';
 
-    protected static ?int $navigationSort = 20;
+    protected static ?int $navigationSort = 9999;
 
     protected static ?string $slug = 'settings';
+
 
     public static function getNavigationGroup(): ?string
     {

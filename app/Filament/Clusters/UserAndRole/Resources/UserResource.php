@@ -17,6 +17,7 @@ use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Illuminate\Support\Facades\Hash;
+use Filament\Tables\Actions\Action as TableAction;
 
 class UserResource extends Resource
 {
@@ -90,6 +91,18 @@ class UserResource extends Resource
             ])
             ->actions([
                 EditAction::make(),
+                TableAction::make('approveStaff')
+                    ->label('Approve Staff')
+                    ->visible(fn(User $record) => ($record->status === 'staff_pending'))
+                    ->action(function (User $record) {
+                        $record->update(['status' => 'active']);
+                        if (! $record->hasAnyRole(['staff_organizer','staff_admin','super_admin'])) {
+                            $record->assignRole('staff_organizer');
+                        }
+                    })
+                    ->requiresConfirmation()
+                    ->color('success')
+                    ->icon('heroicon-o-check'),
                 DeleteAction::make()
             ])
             ->bulkActions([

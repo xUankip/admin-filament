@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Models\Event;
+use App\Models\Feedback;
 use Illuminate\Http\Request;
 
 class EventController extends Controller
@@ -23,7 +24,17 @@ class EventController extends Controller
 
     public function show(Event $event)
     {
-        return $event->load(['department', 'category', 'organizer']);
+        $event->load(['department', 'category', 'organizer']);
+        $feedback = Feedback::where('event_id', $event->id)
+            ->where('flagged', false)
+            ->latest()
+            ->limit(20)
+            ->get();
+
+        return response()->json([
+            'event' => $event,
+            'feedback' => $feedback,
+        ]);
     }
 }
 

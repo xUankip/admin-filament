@@ -34,8 +34,15 @@ class AuthController extends Controller
             'email' => $validated['email'],
             'password' => Hash::make($validated['password']),
             'role_hint' => $request->string('role_hint'),
-            'status' => 'active',
+            'status' => (!empty($validated['role_hint']) && str_starts_with($validated['role_hint'], 'staff')) ? 'staff_pending' : 'active',
         ]);
+
+        // Assign default role based on hint (no privileges until approved)
+        if (!empty($validated['role_hint']) && str_starts_with($validated['role_hint'], 'staff')) {
+            // keep without organizer/admin roles until approval; optionally set a placeholder role
+        } else {
+            $user->assignRole('student_viewer');
+        }
 
         event(new Registered($user));
 

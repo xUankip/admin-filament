@@ -8,6 +8,8 @@ use App\Http\Controllers\Api\CertificateController;
 use App\Http\Controllers\Api\FeedbackController;
 use App\Http\Controllers\Api\MediaController;
 use App\Http\Controllers\Api\NotificationController;
+use App\Http\Controllers\Api\PushTokenController;
+use App\Http\Controllers\Api\AttendanceController;
 
 Route::prefix('v1')->group(function () {
     Route::get('/ping', fn () => response()->json(['message' => 'ok']))->name('api.ping');
@@ -31,6 +33,7 @@ Route::prefix('v1')->group(function () {
 
         // Certificates
         Route::get('/me/certificates', [CertificateController::class, 'mine']);
+        Route::post('/certificates/issue', [CertificateController::class, 'issue'])->middleware('can:issue certificates');
 
         // Feedback
         Route::post('/events/{event}/feedback', [FeedbackController::class, 'store']);
@@ -42,6 +45,13 @@ Route::prefix('v1')->group(function () {
         // Notifications
         Route::get('/notifications', [NotificationController::class, 'index']);
         Route::post('/notifications/{notification}/read', [NotificationController::class, 'markRead']);
+
+        // Push tokens (FCM / OneSignal)
+        Route::post('/push-tokens', [PushTokenController::class, 'upsert']);
+        Route::post('/push-tokens/revoke', [PushTokenController::class, 'revoke']);
+
+        // Attendance
+        Route::post('/attendance/check-in', [AttendanceController::class, 'checkIn']);
     });
 });
 
