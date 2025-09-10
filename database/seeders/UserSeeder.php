@@ -21,6 +21,7 @@ class UserSeeder extends Seeder
                 'role_hint' => 'staff_admin',
             ]
         );
+        $admin->assignRole('super_admin');
         $admin->assignRole('staff_admin');
 
         // Organizer

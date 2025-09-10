@@ -33,7 +33,7 @@ Route::prefix('v1')->group(function () {
 
         // Certificates
         Route::get('/me/certificates', [CertificateController::class, 'mine']);
-        Route::post('/certificates/issue', [CertificateController::class, 'issue'])->middleware('can:issue certificates');
+        Route::post('/certificates/issue', [CertificateController::class, 'issue'])->middleware('role:super_admin|staff_admin|staff_organizer');
 
         // Feedback
         Route::post('/events/{event}/feedback', [FeedbackController::class, 'store']);
@@ -51,7 +51,7 @@ Route::prefix('v1')->group(function () {
         Route::post('/push-tokens/revoke', [PushTokenController::class, 'revoke']);
 
         // Attendance
-        Route::post('/attendance/check-in', [AttendanceController::class, 'checkIn']);
+        Route::post('/attendance/check-in', [AttendanceController::class, 'checkIn'])->middleware('role:super_admin|staff_admin|staff_organizer');
     });
 });
 
