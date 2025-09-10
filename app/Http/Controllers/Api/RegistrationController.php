@@ -25,14 +25,32 @@ class RegistrationController extends Controller
             return response()->json(['message' => 'email_unverified'], 403);
         }
 
-        $registration = Registration::firstOrCreate(
-            ['event_id' => $event->id, 'user_id' => $user->id],
-            [
-                'status' => 'pending',
-                'checkin_code' => (string) Str::uuid(),
-                'fields_snapshot' => [],
-            ]
-        );
+        $already = Registration::where('event_id', $event->id)->where('user_id', $user->id)->first();
+        if ($already) {
+            return response()->json($already);
+        }
+
+        // Capacity enforcement and optional waitlist
+        $onWaitlist = false;
+        if ($event->seats_left <= 0) {
+            if (! $event->waitlist_enabled) {
+                return response()->json(['message' => 'event_full'], 409);
+            }
+            $onWaitlist = true;
+        } else {
+            // reserve a seat
+            $event->decrement('seats_left');
+        }
+
+        $registration = Registration::create([
+            'event_id' => $event->id,
+            'user_id' => $user->id,
+            'status' => $onWaitlist ? 'pending' : 'confirmed',
+            'on_waitlist' => $onWaitlist,
+            'fee_paid' => false,
+            'checkin_code' => (string) Str::uuid(),
+            'fields_snapshot' => [],
+        ]);
 
         return response()->json($registration->fresh());
     }

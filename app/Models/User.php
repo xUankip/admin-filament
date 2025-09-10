@@ -39,8 +39,20 @@ class User extends Authenticatable implements FilamentUser, HasTenants, MustVeri
 
     public function canAccessPanel(Panel $panel): bool
     {
-        // Allow all verified users into default admin panel for now; will restrict via roles in policies/resources.
-        return (bool) $this->email_verified_at;
+        $isVerified = (bool) $this->email_verified_at;
+        $panelId = method_exists($panel, 'getId') ? $panel->getId() : null;
+
+        if ($panelId === 'pro') {
+            // Admin panel: only staff_admin or super_admin
+            return $isVerified && ($this->hasRole('super_admin') || $this->hasRole('staff_admin'));
+        }
+
+        if ($panelId === 'app') {
+            // Organizer panel: staff_organizer, staff_admin, or super_admin
+            return $isVerified && ($this->hasRole('super_admin') || $this->hasRole('staff_admin') || $this->hasRole('staff_organizer'));
+        }
+
+        return false;
     }
 
     public function canAccessTenant(Model $tenant): bool

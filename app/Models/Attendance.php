@@ -10,6 +10,8 @@ class Attendance extends Model
 {
     use HasFactory;
 
+    protected $table = 'attendance';
+
     protected $guarded = [];
 
     protected $casts = [

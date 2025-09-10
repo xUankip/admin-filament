@@ -9,7 +9,8 @@ return [
         'navigation_group' => false,
         'is_globally_searchable' => false,
         'show_model_path' => false,
-        'is_scoped_to_tenant' => true,
+        // Show Roles & Permissions in admin panel regardless of tenant context
+        'is_scoped_to_tenant' => false,
         'cluster' => \App\Filament\Clusters\UserAndRole::class,
     ],
 
