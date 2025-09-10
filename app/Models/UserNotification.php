@@ -23,3 +23,4 @@ class UserNotification extends Model
 }
 
 
+

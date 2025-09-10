@@ -17,3 +17,4 @@ class UserDetail extends Model
 }
 
 
+
