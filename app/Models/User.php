@@ -13,6 +13,7 @@ use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Collection;
 use Laravel\Sanctum\HasApiTokens;
 use Spatie\Permission\Traits\HasRoles;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 
 class User extends Authenticatable implements FilamentUser, HasTenants, MustVerifyEmail
 {
@@ -65,4 +66,6 @@ class User extends Authenticatable implements FilamentUser, HasTenants, MustVeri
     {
         return Team::all();
     }
+
+    public function detail(): HasOne { return $this->hasOne(UserDetail::class); }
 }

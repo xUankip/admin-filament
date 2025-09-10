@@ -10,6 +10,10 @@ use App\Http\Controllers\Api\MediaController;
 use App\Http\Controllers\Api\NotificationController;
 use App\Http\Controllers\Api\PushTokenController;
 use App\Http\Controllers\Api\AttendanceController;
+use App\Http\Controllers\Api\OrganizerController;
+use App\Http\Controllers\Api\ProfileController;
+use App\Http\Controllers\Api\PasswordResetController;
+use App\Http\Controllers\Api\EmailVerificationController;
 
 Route::prefix('v1')->group(function () {
     Route::get('/ping', fn () => response()->json(['message' => 'ok']))->name('api.ping');
@@ -17,10 +21,14 @@ Route::prefix('v1')->group(function () {
     // Auth
     Route::post('/auth/register', [AuthController::class, 'register']);
     Route::post('/auth/login', [AuthController::class, 'login']);
+    Route::post('/auth/forgot-password', [PasswordResetController::class, 'forgot']);
+    Route::post('/auth/reset-password', [PasswordResetController::class, 'reset']);
 
     Route::middleware('auth:sanctum')->group(function () {
         Route::get('/auth/me', [AuthController::class, 'me']);
         Route::post('/auth/logout', [AuthController::class, 'logout']);
+        Route::post('/auth/email/verification-notification', [EmailVerificationController::class, 'send']);
+        Route::get('/auth/verify-email', [EmailVerificationController::class, 'verify'])->name('verification.verify');
 
         // Events
         Route::get('/events', [EventController::class, 'index']);
@@ -30,6 +38,7 @@ Route::prefix('v1')->group(function () {
         Route::get('/me/registrations', [RegistrationController::class, 'myRegistrations']);
         Route::post('/events/{event}/register', [RegistrationController::class, 'register']);
         Route::delete('/events/{event}/register', [RegistrationController::class, 'unregister']);
+        Route::get('/events/{event}/registrants', [OrganizerController::class, 'registrants'])->middleware('role:super_admin|staff_admin|staff_organizer');
 
         // Certificates
         Route::get('/me/certificates', [CertificateController::class, 'mine']);
@@ -52,6 +61,11 @@ Route::prefix('v1')->group(function () {
 
         // Attendance
         Route::post('/attendance/check-in', [AttendanceController::class, 'checkIn'])->middleware('role:super_admin|staff_admin|staff_organizer');
+
+        // Profile
+        Route::get('/profile', [ProfileController::class, 'me']);
+        Route::put('/profile', [ProfileController::class, 'update']);
+        Route::post('/profile/password', [ProfileController::class, 'changePassword']);
     });
 });
 

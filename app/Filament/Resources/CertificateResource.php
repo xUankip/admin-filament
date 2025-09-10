@@ -14,7 +14,7 @@ class CertificateResource extends Resource
 {
     protected static ?string $model = Certificate::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-academic-cap';
+    protected static ?string $navigationIcon = 'heroicon-o-document-text';
 
     protected static ?string $navigationGroup = 'Content Management';
 
@@ -22,10 +22,10 @@ class CertificateResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\Select::make('event_id')->relationship('event', 'title')->searchable()->preload()->required(),
-                Forms\Components\Select::make('student_id')->relationship('student', 'name')->searchable()->preload()->required(),
-                Forms\Components\TextInput::make('certificate_id')->required()->maxLength(128),
-                Forms\Components\TextInput::make('pdf_url')->required()->url(),
+                Forms\Components\Select::make('event_id')->relationship('event', 'title')->required()->searchable()->preload(),
+                Forms\Components\Select::make('student_id')->relationship('student', 'name')->required()->searchable()->preload(),
+                Forms\Components\TextInput::make('certificate_id')->required(),
+                Forms\Components\TextInput::make('pdf_url')->required(),
                 Forms\Components\DatePicker::make('issued_on'),
             ]);
     }
@@ -37,19 +37,11 @@ class CertificateResource extends Resource
                 Tables\Columns\TextColumn::make('event.title')->label('Event')->searchable()->sortable(),
                 Tables\Columns\TextColumn::make('student.name')->label('Student')->searchable()->sortable(),
                 Tables\Columns\TextColumn::make('certificate_id')->copyable(),
-                Tables\Columns\TextColumn::make('issued_on')->date()->badge()->color('success'),
-            ])
-            ->filters([
-                //
+                Tables\Columns\TextColumn::make('issued_on')->date(),
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),
                 Tables\Actions\DeleteAction::make(),
-            ])
-            ->bulkActions([
-                Tables\Actions\BulkActionGroup::make([
-                    Tables\Actions\DeleteBulkAction::make(),
-                ]),
             ]);
     }
 

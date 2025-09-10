@@ -16,6 +16,8 @@ class EventController extends Controller
             ->when($request->filled('q'), fn ($q) => $q->where('title', 'like', '%'.$request->string('q').'%'))
             ->when($request->filled('category_id'), fn ($q) => $q->where('category_id', $request->integer('category_id')))
             ->when($request->filled('department_id'), fn ($q) => $q->where('department_id', $request->integer('department_id')))
+            ->when($request->filled('from'), fn ($q) => $q->where('start_at', '>=', $request->date('from')))
+            ->when($request->filled('to'), fn ($q) => $q->where('end_at', '<=', $request->date('to')))
             ->when($request->filled('status'), fn ($q) => $q->where('status', $request->string('status')))
             ->orderByDesc('start_at');
 
