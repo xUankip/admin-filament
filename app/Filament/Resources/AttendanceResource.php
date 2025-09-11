@@ -4,6 +4,8 @@ namespace App\Filament\Resources;
 
 use App\Filament\Resources\AttendanceResource\Pages;
 use App\Models\Attendance;
+use Filament\Forms;
+use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -15,6 +17,21 @@ class AttendanceResource extends Resource
     protected static ?string $navigationIcon = 'heroicon-o-qr-code';
 
     protected static ?string $navigationGroup = 'Content Management';
+
+    public static function form(Form $form): Form
+    {
+        return $form
+            ->schema([
+                Forms\Components\Select::make('registration_id')
+                    ->relationship('registration', 'id')
+                    ->searchable()
+                    ->preload()
+                    ->label('Registration')
+                    ->required(),
+                Forms\Components\DateTimePicker::make('checked_in_at')->seconds(false),
+                Forms\Components\DateTimePicker::make('checked_out_at')->seconds(false),
+            ]);
+    }
 
     public static function table(Table $table): Table
     {
@@ -42,6 +59,7 @@ class AttendanceResource extends Resource
     {
         return [
             'index' => Pages\ListAttendance::route('/'),
+            'create' => Pages\CreateAttendance::route('/create'),
         ];
     }
 }

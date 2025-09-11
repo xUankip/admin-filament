@@ -3,15 +3,15 @@
 return [
     'shield_resource' => [
         'should_register_navigation' => true,
-        'slug' => 'roles',
+        'slug' => 'roles',                 // không dùng 'shield/roles'
         'navigation_sort' => -1,
         'navigation_badge' => true,
-        'navigation_group' => false,
+        'navigation_group' => 'Settings',  // chuỗi tĩnh (same as UserResource)
+        'sub_navigation_position' => null,
         'is_globally_searchable' => false,
-        'show_model_path' => false,
-        // Show Roles & Permissions in admin panel regardless of tenant context
-        'is_scoped_to_tenant' => false,
-        'cluster' => \App\Filament\Clusters\UserAndRole::class,
+        'show_model_path' => true,
+        'is_scoped_to_tenant' => true,
+        'cluster' => null,                 // đảm bảo null (bỏ cluster)
     ],
 
     'tenant_model' => null,

@@ -15,7 +15,10 @@ class StaffApprovalResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-user-plus';
 
-    protected static ?string $navigationGroup = 'Approvals';
+    public static function getNavigationGroup(): ?string
+    {
+        return __('nav.settingss');
+    }
 
     public static function table(Table $table): Table
     {

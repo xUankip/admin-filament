@@ -4,6 +4,8 @@ namespace App\Filament\Resources;
 
 use App\Filament\Resources\RegistrationResource\Pages;
 use App\Models\Registration;
+use Filament\Forms;
+use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -15,6 +17,32 @@ class RegistrationResource extends Resource
     protected static ?string $navigationIcon = 'heroicon-o-clipboard-document-check';
 
     protected static ?string $navigationGroup = 'Content Management';
+
+    public static function form(Form $form): Form
+    {
+        return $form
+            ->schema([
+                Forms\Components\Select::make('event_id')
+                    ->relationship('event', 'title')
+                    ->searchable()
+                    ->preload()
+                    ->required(),
+                Forms\Components\Select::make('user_id')
+                    ->relationship('user', 'name')
+                    ->searchable()
+                    ->preload()
+                    ->required(),
+                Forms\Components\Select::make('status')
+                    ->options([
+                        'pending' => 'pending',
+                        'confirmed' => 'confirmed',
+                        'canceled' => 'canceled',
+                        'no-show' => 'no-show',
+                    ])->required(),
+                Forms\Components\Toggle::make('on_waitlist'),
+                Forms\Components\Toggle::make('fee_paid'),
+            ]);
+    }
 
     public static function table(Table $table): Table
     {
@@ -57,6 +85,7 @@ class RegistrationResource extends Resource
     {
         return [
             'index' => Pages\ListRegistrations::route('/'),
+            'create' => Pages\CreateRegistration::route('/create'),
         ];
     }
 }

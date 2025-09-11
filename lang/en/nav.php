@@ -2,12 +2,21 @@
 
 return [
     'settings'         => 'Settings',
+    'settingss'         => 'Approval',
+
     'menu'             => 'Menu',
     'faq'              => 'FAQ',
     'static_page'      => 'Static Page',
     'home_settings'    => 'Home Page Settings',
     'settings_general' => 'General Settings',
     'user_and_role'    => 'Users and Roles',
+    'user'             => 'User',
+    'role'             => 'Role',
+    'permission'       => 'Permission',
+    'profile'          => 'Profile',
+    'change_password'  => '<PASSWORD>',
+    'logout'           => 'Logout',
+    'user_role'        => 'User Role',
 
     'api_setting'          => "API Settings",
     'cdn_setting'          => "CDN Settings",

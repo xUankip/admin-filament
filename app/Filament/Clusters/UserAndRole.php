@@ -8,7 +8,7 @@ class UserAndRole extends Cluster
 {
     protected static ?string $navigationIcon = 'heroicon-m-user-group';
 
-    protected static ?int $navigationSort = 20;
+//    protected static ?int $navigationSort = 88;
 
     protected static ?string $slug = 'auth';
 

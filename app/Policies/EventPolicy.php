@@ -15,7 +15,7 @@ class EventPolicy
      */
     public function viewAny(User $user): bool
     {
-        return $user->can('view_any_event');
+        return $user->can('view_any_event::approval');
     }
 
     /**
@@ -23,7 +23,7 @@ class EventPolicy
      */
     public function view(User $user, Event $event): bool
     {
-        return $user->can('view_event');
+        return $user->can('view_event::approval');
     }
 
     /**
@@ -31,7 +31,7 @@ class EventPolicy
      */
     public function create(User $user): bool
     {
-        return $user->can('create_event');
+        return $user->can('create_event::approval');
     }
 
     /**
@@ -39,7 +39,7 @@ class EventPolicy
      */
     public function update(User $user, Event $event): bool
     {
-        return $user->can('update_event');
+        return $user->can('update_event::approval');
     }
 
     /**
@@ -47,7 +47,7 @@ class EventPolicy
      */
     public function delete(User $user, Event $event): bool
     {
-        return $user->can('delete_event');
+        return $user->can('delete_event::approval');
     }
 
     /**
@@ -55,7 +55,7 @@ class EventPolicy
      */
     public function deleteAny(User $user): bool
     {
-        return $user->can('delete_any_event');
+        return $user->can('delete_any_event::approval');
     }
 
     /**
@@ -63,7 +63,7 @@ class EventPolicy
      */
     public function forceDelete(User $user, Event $event): bool
     {
-        return $user->can('force_delete_event');
+        return $user->can('force_delete_event::approval');
     }
 
     /**
@@ -71,7 +71,7 @@ class EventPolicy
      */
     public function forceDeleteAny(User $user): bool
     {
-        return $user->can('force_delete_any_event');
+        return $user->can('force_delete_any_event::approval');
     }
 
     /**
@@ -79,7 +79,7 @@ class EventPolicy
      */
     public function restore(User $user, Event $event): bool
     {
-        return $user->can('restore_event');
+        return $user->can('restore_event::approval');
     }
 
     /**
@@ -87,7 +87,7 @@ class EventPolicy
      */
     public function restoreAny(User $user): bool
     {
-        return $user->can('restore_any_event');
+        return $user->can('restore_any_event::approval');
     }
 
     /**
@@ -95,7 +95,7 @@ class EventPolicy
      */
     public function replicate(User $user, Event $event): bool
     {
-        return $user->can('replicate_event');
+        return $user->can('replicate_event::approval');
     }
 
     /**
@@ -103,6 +103,6 @@ class EventPolicy
      */
     public function reorder(User $user): bool
     {
-        return $user->can('reorder_event');
+        return $user->can('reorder_event::approval');
     }
 }

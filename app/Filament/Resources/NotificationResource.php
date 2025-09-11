@@ -4,6 +4,8 @@ namespace App\Filament\Resources;
 
 use App\Filament\Resources\NotificationResource\Pages;
 use App\Models\UserNotification;
+use Filament\Forms;
+use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -15,6 +17,26 @@ class NotificationResource extends Resource
     protected static ?string $navigationIcon = 'heroicon-o-bell';
 
     protected static ?string $navigationGroup = 'Content Management';
+
+    public static function form(Form $form): Form
+    {
+        return $form
+            ->schema([
+                Forms\Components\Select::make('user_id')
+                    ->relationship('user', 'name')
+                    ->searchable()
+                    ->preload()
+                    ->required(),
+                Forms\Components\Select::make('channel')
+                    ->options([
+                        'in_app' => 'in_app',
+                        'push' => 'push',
+                        'email' => 'email',
+                    ])->required(),
+                Forms\Components\TextInput::make('type')->required(),
+                Forms\Components\KeyValue::make('data')->columnSpanFull(),
+            ]);
+    }
 
     public static function table(Table $table): Table
     {
@@ -40,6 +62,7 @@ class NotificationResource extends Resource
     {
         return [
             'index' => Pages\ListNotifications::route('/'),
+            'create' => Pages\CreateNotification::route('/create'),
         ];
     }
 }

@@ -60,6 +60,7 @@ class FeedbackResource extends Resource
     {
         return [
             'index' => Pages\ListFeedback::route('/'),
+            'create' => Pages\CreateFeedback::route('/create'),
             'edit' => Pages\EditFeedback::route('/{record}/edit'),
         ];
     }

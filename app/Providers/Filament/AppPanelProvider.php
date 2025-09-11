@@ -17,6 +17,7 @@ use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\AuthenticateSession;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
+use Filament\Navigation\NavigationGroup;
 
 class AppPanelProvider extends PanelProvider
 {
@@ -47,6 +48,11 @@ class AppPanelProvider extends PanelProvider
             ])
             ->authMiddleware([
                 Authenticate::class,
+            ])
+            ->navigationGroups([
+                'Content Management' => NavigationGroup::make('Content Management'),
+                'Approval' => NavigationGroup::make('Approvalsss'),
+                'Settings' => NavigationGroup::make(fn() => app()->getLocale() === 'vi' ? 'Quản lý Hệ thống' : 'System Management'),
             ]);
     }
 }

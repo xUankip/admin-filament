@@ -12,9 +12,11 @@ class EventApprovalResource extends Resource
 {
     protected static ?string $model = Event::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-clipboard-check';
 
-    protected static ?string $navigationGroup = 'Approvals';
+    public static function getNavigationGroup(): ?string
+    {
+        return __('nav.settingss');
+    }
 
     public static function table(Table $table): Table
     {
