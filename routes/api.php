@@ -18,6 +18,14 @@ use App\Http\Controllers\Api\EmailVerificationController;
 Route::prefix('v1')->group(function () {
     Route::get('/ping', fn () => response()->json(['message' => 'ok']))->name('api.ping');
 
+    // Public endpoints (guest access)
+    Route::get('/events', [EventController::class, 'index']);
+    Route::get('/events/{event}', [EventController::class, 'show']);
+    Route::get('/events/suggest', [EventController::class, 'suggest']);
+    Route::get('/categories', [\App\Http\Controllers\Api\CategoryController::class, 'index']);
+    Route::get('/departments', [\App\Http\Controllers\Api\DepartmentController::class, 'index']);
+    Route::get('/media', [\App\Http\Controllers\Api\MediaController::class, 'index']);
+
     // Auth
     Route::post('/auth/register', [AuthController::class, 'register']);
     Route::post('/auth/login', [AuthController::class, 'login']);
@@ -30,9 +38,7 @@ Route::prefix('v1')->group(function () {
         Route::post('/auth/email/verification-notification', [EmailVerificationController::class, 'send']);
         Route::get('/auth/verify-email', [EmailVerificationController::class, 'verify'])->name('verification.verify');
 
-        // Events
-        Route::get('/events', [EventController::class, 'index']);
-        Route::get('/events/{event}', [EventController::class, 'show']);
+        // Events (auth required actions only)
 
         // Registrations
         Route::get('/me/registrations', [RegistrationController::class, 'myRegistrations']);
