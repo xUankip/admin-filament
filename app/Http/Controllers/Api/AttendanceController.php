@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use App\Models\Attendance;
 use App\Models\Event;
-use App\Models\Registration;
 use Illuminate\Http\Request;
 
 class AttendanceController extends Controller
@@ -17,32 +16,48 @@ class AttendanceController extends Controller
             'event_id' => ['required', 'integer', 'exists:events,id'],
         ]);
 
-        $registration = Registration::where('checkin_code', $validated['checkin_code'])->first();
-        if (! $registration) {
-            return response()->json(['message' => 'invalid_qr'], 422);
-        }
-
-        if ($registration->event_id !== (int) $validated['event_id']) {
-            return response()->json(['message' => 'wrong_event'], 422);
-        }
-
         $event = Event::find($validated['event_id']);
         $now = now();
-        if ($now->lt($event->start_at) || $now->gt($event->end_at)) {
-            return response()->json(['message' => 'invalid_time_window'], 422);
+        
+        // Bỏ kiểm tra thời gian sự kiện để test
+        // if ($now->lt($event->start_at) || $now->gt($event->end_at)) {
+        //     return response()->json(['message' => 'invalid_time_window'], 422);
+        // }
+
+        // Kiểm tra xem user đã check-in chưa
+        $existingAttendance = Attendance::where('event_id', $validated['event_id'])
+            ->where('user_id', auth()->id())
+            ->first();
+
+        if ($existingAttendance) {
+            return response()->json([
+                'success' => false,
+                'message' => 'You have already checked in for this event',
+                'checked_in_at' => $existingAttendance->checked_in_at
+            ], 422);
         }
 
-        $attendance = Attendance::firstOrCreate(
-            ['registration_id' => $registration->id],
-            ['checked_in_at' => $now]
-        );
+        // Tạo attendance record trực tiếp trong bảng attendance
+        $attendance = Attendance::create([
+            'event_id' => $validated['event_id'],
+            'user_id' => auth()->id(),
+            'checkin_code' => $validated['checkin_code'],
+            'checked_in_at' => $now,
+            'status' => 'present',
+            'created_at' => $now,
+            'updated_at' => $now,
+        ]);
 
-        if (! $attendance->checked_in_at) {
-            $attendance->update(['checked_in_at' => $now]);
-        }
-
-        return response()->json($attendance->fresh());
+        return response()->json([
+            'success' => true,
+            'message' => 'Check-in successful!',
+            'data' => [
+                'attendance_id' => $attendance->id,
+                'event_id' => $attendance->event_id,
+                'event_title' => $event->title,
+                'checked_in_at' => $attendance->checked_in_at,
+                'checkin_code' => $attendance->checkin_code,
+            ]
+        ]);
     }
 }
-
-

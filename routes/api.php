@@ -73,7 +73,7 @@ Route::prefix('v1')->group(function () {
         Route::post('/push-tokens', [PushTokenController::class, 'upsert']);
         Route::post('/push-tokens/revoke', [PushTokenController::class, 'revoke']);
 
-        // Attendance
+        // Attendance - Direct QR Check-in
         Route::post('/attendance/check-in', [AttendanceController::class, 'checkIn'])->middleware('role:super_admin|staff_admin|staff_organizer');
         Route::post('/attendance/checkin', [AttendanceController::class, 'checkIn']); // Flutter alias (no role restriction for demo)
 

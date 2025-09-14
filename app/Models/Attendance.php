@@ -10,7 +10,7 @@ class Attendance extends Model
 {
     use HasFactory;
 
-    protected $table = 'attendance';
+    protected $table = 'attendances';
 
     protected $guarded = [];
 
@@ -19,7 +19,21 @@ class Attendance extends Model
         'checked_out_at' => 'datetime',
     ];
 
-    public function registration(): BelongsTo { return $this->belongsTo(Registration::class); }
+    // Relationships
+    public function event(): BelongsTo 
+    { 
+        return $this->belongsTo(Event::class); 
+    }
+
+    public function user(): BelongsTo 
+    { 
+        return $this->belongsTo(User::class); 
+    }
+
+    public function registration(): BelongsTo 
+    { 
+        return $this->belongsTo(Registration::class); 
+    }
 }
 
 
