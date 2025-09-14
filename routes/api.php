@@ -41,6 +41,10 @@ Route::prefix('v1')->group(function () {
         Route::post('/auth/logout', [AuthController::class, 'logout']);
         Route::post('/auth/email/verification-notification', [EmailVerificationController::class, 'send']);
         Route::post('/email/verification/send', [EmailVerificationController::class, 'send']); // Flutter alias
+        Route::post('/auth/email/otp', [EmailVerificationController::class, 'sendOtp']);
+        Route::post('/email/verification/otp', [EmailVerificationController::class, 'sendOtp']); // alias
+        Route::post('/auth/email/verify-otp', [EmailVerificationController::class, 'verifyOtp']);
+        Route::post('/email/verification/verify-otp', [EmailVerificationController::class, 'verifyOtp']); // alias
         Route::get('/auth/verify-email', [EmailVerificationController::class, 'verify'])->name('verification.verify');
         Route::get('/email/verification/verify', [EmailVerificationController::class, 'verify']); // Flutter alias
         // Registrations
