@@ -3,6 +3,7 @@
 namespace App\Filament\Resources;
 
 use App\Filament\Resources\EventResource\Pages;
+use App\Filament\Resources\EventResource\RelationManagers;
 use App\Models\Event;
 use Filament\Forms;
 use Filament\Forms\Form;
@@ -34,12 +35,12 @@ class EventResource extends Resource
                 Forms\Components\TextInput::make('seats_left')->numeric()->minValue(0)->required(),
                 Forms\Components\Toggle::make('waitlist_enabled')->label('Enable waitlist'),
                 Forms\Components\Select::make('status')->options([
-                    'draft' => 'draft',
-                    'pending' => 'pending',
-                    'approved' => 'approved',
-                    'published' => 'published',
-                    'completed' => 'completed',
-                    'canceled' => 'canceled',
+                    'draft' => 'Draft',
+                    'pending' => 'Pending',
+                    'approved' => 'Approved',
+                    'published' => 'Published',
+                    'completed' => 'Completed',
+                    'canceled' => 'Canceled',
                 ])->required(),
             ]);
     }
@@ -57,24 +58,44 @@ class EventResource extends Resource
                 Tables\Columns\TextColumn::make('capacity'),
                 Tables\Columns\TextColumn::make('seats_left')->badge()->color(fn($state) => $state > 0 ? 'success' : 'danger'),
                 Tables\Columns\IconColumn::make('waitlist_enabled')->boolean(),
+
+                Tables\Columns\TextColumn::make('registrations_count')
+                    ->counts('registrations')
+                    ->label('Registrations')
+                    ->badge()
+                    ->color('info'),
+
+                Tables\Columns\TextColumn::make('certificates_count')
+                    ->counts('certificates')
+                    ->label('Certificates')
+                    ->badge()
+                    ->color('success'),
+
                 Tables\Columns\BadgeColumn::make('status')->colors([
+                    'gray' => 'draft',
                     'warning' => 'pending',
+                    'info' => 'approved',
                     'success' => 'published',
+                    'primary' => 'completed',
                     'danger' => 'canceled',
                 ]),
             ])
             ->filters([
                 Tables\Filters\TernaryFilter::make('waitlist_enabled'),
                 Tables\Filters\SelectFilter::make('status')->options([
-                    'draft' => 'draft',
-                    'pending' => 'pending',
-                    'approved' => 'approved',
-                    'published' => 'published',
-                    'completed' => 'completed',
-                    'canceled' => 'canceled',
+                    'draft' => 'Draft',
+                    'pending' => 'Pending',
+                    'approved' => 'Approved',
+                    'published' => 'Published',
+                    'completed' => 'Completed',
+                    'canceled' => 'Canceled',
                 ]),
+                Tables\Filters\SelectFilter::make('department_id')
+                    ->relationship('department', 'name')
+                    ->label('Department'),
             ])
             ->actions([
+                Tables\Actions\ViewAction::make(),
                 Tables\Actions\EditAction::make(),
                 Tables\Actions\DeleteAction::make(),
             ])
@@ -85,14 +106,21 @@ class EventResource extends Resource
             ]);
     }
 
+    public static function getRelations(): array
+    {
+        return [
+            RelationManagers\RegistrationsRelationManager::class,
+            RelationManagers\CertificatesRelationManager::class,
+        ];
+    }
+
     public static function getPages(): array
     {
         return [
             'index' => Pages\ListEvents::route('/'),
             'create' => Pages\CreateEvent::route('/create'),
             'edit' => Pages\EditEvent::route('/{record}/edit'),
+            'view' => Pages\ViewEvent::route('/{record}'),
         ];
     }
 }
-
-

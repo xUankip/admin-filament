@@ -30,7 +30,5 @@ class Event extends Model
     public function registrations(): HasMany { return $this->hasMany(Registration::class); }
     public function feedback(): HasMany { return $this->hasMany(Feedback::class); }
     public function media(): HasMany { return $this->hasMany(Media::class, 'event_id'); }
+    public function certificates(): HasMany { return $this->hasMany(Certificate::class); }
 }
-
-
-
