@@ -26,8 +26,8 @@ class CertificateController extends Controller
         ]);
 
         $registration = Registration::with(['event', 'user'])->findOrFail($validated['registration_id']);
-
-        if (! $registration->fee_paid) {
+        // Check fee status on registration (column added via migration)
+        if (! (bool) $registration->fee_paid) {
             return response()->json(['message' => 'fee_unpaid'], 422);
         }
 
