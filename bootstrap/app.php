@@ -14,7 +14,11 @@ return Application::configure(basePath: dirname(__DIR__))
     ->withMiddleware(function (Middleware $middleware) {
         $middleware->append(Illuminate\Cookie\Middleware\EncryptCookies::class);
         $middleware->append(Illuminate\Session\Middleware\StartSession::class);
-
+        
+        // Register role middleware
+        $middleware->alias([
+            'role' => \App\Http\Middleware\RoleMiddleware::class,
+        ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //

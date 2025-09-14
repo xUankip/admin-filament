@@ -38,6 +38,41 @@ class EventController extends Controller
             'feedback' => $feedback,
         ]);
     }
+
+    public function store(Request $request)
+    {
+        $validated = $request->validate([
+            'title' => ['required', 'string', 'max:255'],
+            'description' => ['required', 'string'],
+            'start_at' => ['required', 'date', 'after:now'],
+            'end_at' => ['required', 'date', 'after:start_at'],
+            'venue' => ['required', 'string', 'max:255'],
+            'capacity' => ['required', 'integer', 'min:1'],
+            'category_id' => ['required', 'integer', 'exists:categories,id'],
+            'department_id' => ['required', 'integer', 'exists:departments,id'],
+            'organizer_id' => ['required', 'integer', 'exists:users,id'],
+            'co_organizers' => ['nullable', 'array'],
+            'co_organizers.*' => ['string', 'max:255'],
+            'rules' => ['nullable', 'string'],
+            'contact_info' => ['nullable', 'string'],
+            'banner_url' => ['nullable', 'url'],
+        ]);
+
+        // Set seats_left = capacity initially
+        $validated['seats_left'] = $validated['capacity'];
+        
+        // Generate slug from title
+        $validated['slug'] = \Str::slug($validated['title']);
+        
+        $event = Event::create($validated);
+        $event->load(['department', 'category', 'organizer']);
+
+        return response()->json([
+            'success' => true,
+            'message' => 'Event created successfully',
+            'data' => $event
+        ], 201);
+    }
 }
 
 

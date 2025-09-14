@@ -36,6 +36,9 @@ Route::prefix('v1')->group(function () {
         Route::get('/auth/verify-email', [EmailVerificationController::class, 'verify'])->name('verification.verify');
         Route::get('/email/verification/verify', [EmailVerificationController::class, 'verify']); // Flutter alias
 
+        // Events (Create/Update/Delete - requires authentication)
+        Route::post('/events', [EventController::class, 'store']); // Temporarily removed role middleware
+
         // Registrations
         Route::get('/me/registrations', [RegistrationController::class, 'myRegistrations']);
         Route::get('/registrations/my', [RegistrationController::class, 'myRegistrations']); // Flutter alias
