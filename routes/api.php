@@ -18,15 +18,19 @@ use App\Http\Controllers\Api\EmailVerificationController;
 Route::prefix('v1')->group(function () {
     Route::get('/ping', fn () => response()->json(['message' => 'ok']))->name('api.ping');
 
+    // Public endpoints (guest access)
+    Route::get('/events', [EventController::class, 'index']);
+    Route::get('/events/{event}', [EventController::class, 'show']);
+    Route::get('/events/suggest', [EventController::class, 'suggest']);
+    Route::get('/categories', [\App\Http\Controllers\Api\CategoryController::class, 'index']);
+    Route::get('/departments', [\App\Http\Controllers\Api\DepartmentController::class, 'index']);
+    Route::get('/media', [\App\Http\Controllers\Api\MediaController::class, 'index']);
+
     // Auth
     Route::post('/auth/register', [AuthController::class, 'register']);
     Route::post('/auth/login', [AuthController::class, 'login']);
     Route::post('/auth/forgot-password', [PasswordResetController::class, 'forgot']);
     Route::post('/auth/reset-password', [PasswordResetController::class, 'reset']);
-
-    // Public Events
-    Route::get('/events', [EventController::class, 'index']);
-    Route::get('/events/{event}', [EventController::class, 'show']);
 
     Route::middleware('auth:sanctum')->group(function () {
         Route::get('/auth/me', [AuthController::class, 'me']);
@@ -38,7 +42,6 @@ Route::prefix('v1')->group(function () {
 
         // Events (Create/Update/Delete - requires authentication)
         Route::post('/events', [EventController::class, 'store']); // Temporarily removed role middleware
-
         // Registrations
         Route::get('/me/registrations', [RegistrationController::class, 'myRegistrations']);
         Route::get('/registrations/my', [RegistrationController::class, 'myRegistrations']); // Flutter alias
