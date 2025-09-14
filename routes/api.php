@@ -24,24 +24,32 @@ Route::prefix('v1')->group(function () {
     Route::post('/auth/forgot-password', [PasswordResetController::class, 'forgot']);
     Route::post('/auth/reset-password', [PasswordResetController::class, 'reset']);
 
+    // Public Events
+    Route::get('/events', [EventController::class, 'index']);
+    Route::get('/events/{event}', [EventController::class, 'show']);
+
     Route::middleware('auth:sanctum')->group(function () {
         Route::get('/auth/me', [AuthController::class, 'me']);
         Route::post('/auth/logout', [AuthController::class, 'logout']);
         Route::post('/auth/email/verification-notification', [EmailVerificationController::class, 'send']);
+        Route::post('/email/verification/send', [EmailVerificationController::class, 'send']); // Flutter alias
         Route::get('/auth/verify-email', [EmailVerificationController::class, 'verify'])->name('verification.verify');
-
-        // Events
-        Route::get('/events', [EventController::class, 'index']);
-        Route::get('/events/{event}', [EventController::class, 'show']);
+        Route::get('/email/verification/verify', [EmailVerificationController::class, 'verify']); // Flutter alias
 
         // Registrations
         Route::get('/me/registrations', [RegistrationController::class, 'myRegistrations']);
+        Route::get('/registrations/my', [RegistrationController::class, 'myRegistrations']); // Flutter alias
         Route::post('/events/{event}/register', [RegistrationController::class, 'register']);
         Route::delete('/events/{event}/register', [RegistrationController::class, 'unregister']);
+        Route::delete('/events/{event}/unregister', [RegistrationController::class, 'unregister']); // Flutter alias
         Route::get('/events/{event}/registrants', [OrganizerController::class, 'registrants'])->middleware('role:super_admin|staff_admin|staff_organizer');
+        
+        // Organizer endpoints
+        Route::get('/organizer/events/{event}/registrants', [OrganizerController::class, 'registrants'])->middleware('role:super_admin|staff_admin|staff_organizer');
 
         // Certificates
         Route::get('/me/certificates', [CertificateController::class, 'mine']);
+        Route::get('/certificates/mine', [CertificateController::class, 'mine']); // Flutter alias
         Route::post('/certificates/issue', [CertificateController::class, 'issue'])->middleware('role:super_admin|staff_admin|staff_organizer');
 
         // Feedback
@@ -61,11 +69,15 @@ Route::prefix('v1')->group(function () {
 
         // Attendance
         Route::post('/attendance/check-in', [AttendanceController::class, 'checkIn'])->middleware('role:super_admin|staff_admin|staff_organizer');
+        Route::post('/attendance/checkin', [AttendanceController::class, 'checkIn']); // Flutter alias (no role restriction for demo)
 
         // Profile
         Route::get('/profile', [ProfileController::class, 'me']);
+        Route::get('/profile/me', [ProfileController::class, 'me']); // Flutter alias
         Route::put('/profile', [ProfileController::class, 'update']);
+        Route::put('/profile/update', [ProfileController::class, 'update']); // Flutter alias
         Route::post('/profile/password', [ProfileController::class, 'changePassword']);
+        Route::post('/profile/change-password', [ProfileController::class, 'changePassword']); // Flutter alias
     });
 });
 
