@@ -12,7 +12,7 @@ class ListDepartments extends ListRecords
     protected function getHeaderActions(): array
     {
         return [
-            CreateAction::make(), // Adds the "Create" button
+            CreateAction::make(),
         ];
     }
 }
